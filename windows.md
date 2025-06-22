@@ -4,5 +4,6 @@ This is how I setup my Microsoft Windows installation.
 2. Install Windows. (Refer to [![this guide](https://img.shields.io/badge/This_guide-red)](https://rtech.support/installations/install-11/)
 3. Use AME Wizard to apply the [![ReviOS playbook](https://img.shields.io/badge/Revi_OS-playbook-red
 )](https://revi.cc)
+4. That's it! (pretty much)
 
 
