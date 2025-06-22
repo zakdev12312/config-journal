@@ -13,7 +13,6 @@ Minimal stack, maximum clarity.
 
 ---
 
-Want a badge or summary block at the top too? I can help style that next.
 Please feel free to sugegst an app in [![Issues](https://img.shields.io/badge/Issues-blue)](https://github.com/zakdev12312/config-journal/issues)
 
 
