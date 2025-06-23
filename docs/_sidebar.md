@@ -11,3 +11,6 @@
 
 - 📁 Repository
   - [Main README](../README.md)
+
+- 📄 License
+  - [View License](../LICENSE)

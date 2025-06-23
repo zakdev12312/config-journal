@@ -16,3 +16,4 @@ Minimal stack, maximum clarity.
 Please feel free to sugegst an app in [![Issues](https://img.shields.io/badge/Issues-blue)](https://github.com/zakdev12312/config-journal/issues)
 
 
+
