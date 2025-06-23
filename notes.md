@@ -1,1 +1,0 @@
-The notes software I use is Karakeep, on my Raspberry Pi. It is open-source and self-hostable for the best security. It was very easy to setup; minimal bugs. Check it out: [![Karakeep](https://img.shields.io/badge/Kara-keep-white)](https://github.com/karakeep-app/karakeep).
