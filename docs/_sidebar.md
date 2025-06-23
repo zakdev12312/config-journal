@@ -12,4 +12,4 @@
   - [Typography](typography.md)
 
 - 📄 License
-  - [View License](LICENSE.md)
+  - [View License](LICENSE)
