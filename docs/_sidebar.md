@@ -1,4 +1,4 @@
-- 🏠 [Home](/)
+- 🏠 [Home](README.md)
 
 - ✍️ Setup Notes
   - [Windows Setup](winboot.md)
@@ -8,6 +8,3 @@
   - [Notes](notespace.md)
   - [File Transfer](transfer.md)
   - [Web Browsing](web.md)
-
-- 📁 Project Info
-  - [README](../README.md)
