@@ -1,7 +1,7 @@
 - 🏠 [Home](README.md)
 
 - ✍️ Setups
-  - [Defaults](defualts.md)
+  - [Defaults](defaults.md)
   - [Windows Setup](winboot.md)
   - [Privacy Stack](shields-up.md)
 
@@ -9,7 +9,7 @@
   - [Notes](notespace.md)
   - [File Transfer](transfer.md)
   - [Web Browsing](web.md)
-  - [Typeography](typeography.md)
+  - [Typography](typography.md)
 
 - 📄 License
   - [View License](LICENSE)
