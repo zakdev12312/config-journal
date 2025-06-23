@@ -11,7 +11,7 @@ For browser-isolated, containerized workspaces, I rely on [Kasm Workspaces CE](h
 
 Other tools I use for privacy:
 - `Tor Browser` for anonymity
-- `Mullvad VPN` for no-logs tunneling
+- `Surfshark VPN` for no-logs tunneling
 - `uBlock Origin + CanvasBlocker` for browser fingerprint defense
 Tor is easily the most secure browser for browsing anywhere, based on Firefox.
 [![Get Kasm](https://img.shields.io/badge/Get-Kasm_CE-blue)](https://www.kasmweb.com/community-edition)
