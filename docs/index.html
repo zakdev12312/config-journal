@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <title>Config Journal</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Darklight Theme Only (do NOT include other theme CSS) -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css" />
 </head>
 <body>
@@ -25,22 +27,28 @@
         codeFontFamily: 'monospace',
         bodyFontSize: '16px',
         dark: {
-          background: '#1e1e1e',
+          background: '#121212',
           highlightColor: '#4B8BF4',
-          codeBackgroundColor: '#2d2d2d'
+          codeBackgroundColor: '#2d2d2d',
+          textColor: '#e0e0e0'
         },
         light: {
           background: '#ffffff',
           highlightColor: '#4B8BF4',
-          codeBackgroundColor: '#f8f8f8'
+          codeBackgroundColor: '#f8f8f8',
+          textColor: '#222222'
         }
       }
-    }
+    };
   </script>
 
-  <!-- Plugins -->
+  <!-- Docsify Core -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+  <!-- Search Plugin -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
+  <!-- Dark/Light Theme Plugin -->
   <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
 </body>
 </html>
