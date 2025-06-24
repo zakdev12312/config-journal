@@ -11,6 +11,21 @@
 
     <!-- Darklight Theme CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-theme.min.css" />
+    <style>
+      :root {
+        --base-font-family: 'Fira Sans', sans-serif;
+        --theme-color: #2bd8aa;
+        --sidebar-border-radius: 8px;
+      }
+      body, .sidebar, .app-name, .markdown-section, .search input {
+        font-family: var(--base-font-family);
+      }
+      .sidebar, .search input {
+        border-radius: var(--sidebar-border-radius);
+      }
+      .app-name { font-weight: 600; font-size: 22px; }
+      .markdown-section { font-size: 17px; }
+    </style>
   </head>
   <body>
     <div id="app"></div>
@@ -47,6 +62,11 @@
           }
         },
         plugins: [
+          function(hook, vm) {
+            hook.ready(function () {
+              document.body.style.visibility = 'visible';
+            });
+          },
           window.DocsifySidebarCollapse.create({
             collapse: true
           })
