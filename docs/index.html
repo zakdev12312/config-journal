@@ -1,63 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- 
-  <meta charset="UTF-8" />
-  <title>Config Journal</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
-  <style>
-  .app-name {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    letter-spacing: 0.3px;
-  }
-</style>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Config Journal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Darklight Theme Only (do NOT include other theme CSS) -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css" />
-</head>
-<body>
-  <div id="app"></div>
+    <!-- Optional: Custom styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div id="app"></div>
 
-  <script>
-    window.$docsify = {
-      name: 'Config Journal',
-      repo: '',
-      loadSidebar: true,
-      subMaxLevel: 2,
-      search: {
-        placeholder: 'Search journal...',
-        noData: 'No results!'
-      },
-      darklightTheme: {
-        defaultTheme: 'light',
-        siteFont: 'sans-serif',
-        codeFontFamily: 'monospace',
-        bodyFontSize: '16px',
-        dark: {
-          background: '#121212',
-          highlightColor: '#4B8BF4',
-          codeBackgroundColor: '#2d2d2d',
-          textColor: '#e0e0e0'
-        },
-        light: {
-          background: '#ffffff',
-          highlightColor: '#4B8BF4',
-          codeBackgroundColor: '#f8f8f8',
-          textColor: '#222222'
+    <script>
+      window.$docsify = {
+        name: 'My Config Journal',
+        repo: '', // Leave blank to hide GitHub corner
+        loadSidebar: true,
+        subMaxLevel: 2,
+        loadNavbar: false,
+        themeColor: '#333',
+        alias: {
+          '/.*/_sidebar.md': '/sidebar.md' // Ensures the sidebar loads for all routes
         }
-      }
-    };
-  </script>
+      };
+    </script>
 
-  <!-- Docsify Core -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-
-  <!-- Search Plugin -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-
-  <!-- Dark/Light Theme Plugin -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
-</body>
+    <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  </body>
 </html>
