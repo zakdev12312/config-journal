@@ -9,7 +9,7 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet" />
 
-    <!-- Darklight theme styles -->
+    <!-- Darklight Theme -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-theme.min.css" />
     <style>
       :root {
@@ -18,37 +18,35 @@
         --sidebar-border-radius: 8px;
       }
 
-      .sidebar,
+      body,
       .app-name,
-      .search,
-      .sidebar-nav li {
+      .sidebar,
+      .search input {
+        font-family: var(--base-font-family);
         border-radius: var(--sidebar-border-radius);
       }
 
-      .sidebar-nav ul > li > a::after {
-        content: '▾';
-        float: right;
-        transform: rotate(0deg);
-        transition: transform 0.2s ease;
+      .app-name {
+        font-weight: 600;
+        font-size: 22px;
       }
 
-      .sidebar-nav ul > li.active > a::after {
-        transform: rotate(-180deg);
-      }
-
-      .sidebar ul {
+      .sidebar-nav ul {
         list-style: none;
         padding-left: 0;
+      }
+
+      .sidebar-nav li {
+        padding: 4px 0;
       }
 
       .markdown-section {
         font-size: 17px;
       }
 
-      .app-name {
-        font-family: var(--base-font-family);
-        font-weight: 600;
-        font-size: 22px;
+      .search input {
+        padding: 8px;
+        font-size: 15px;
       }
     </style>
   </head>
@@ -84,8 +82,13 @@
       };
     </script>
 
+    <!-- Core -->
     <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+    <!-- Dark mode toggle plugin -->
     <script src="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-theme.min.js"></script>
+
+    <!-- Search plugin -->
     <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   </body>
 </html>
