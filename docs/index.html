@@ -17,29 +17,26 @@
       :root {
         --base-font-family: 'Fira Sans', sans-serif;
         --theme-color: #2bd8aa;
-        --sidebar-border-radius: 8px; /* Radius for the sidebar container and search input */
-
+        --sidebar-border-radius: 8px; /* Radius for the sidebar container */
         /* Light mode specific colors for search input border */
-        --border-color: #e0e0e0;
-      }
-
-      /* Dark mode specific colors for search input border */
-      .dark {
-        --border-color: #333;
+        --border-color-light: #e0e0e0;
+        /* Dark mode specific colors for search input border */
+        --border-color-dark: #333;
       }
 
       /* Apply base font to all relevant elements for consistency */
       body,
       .app-name,
       .sidebar,
-      .search input,
-      .markdown-section {
+      .markdown-section,
+      /* Docsify's header link and the search input */
+      .app-name-link,
+      .search input { 
         font-family: var(--base-font-family);
       }
 
-      /* Apply rounded corners specifically to the sidebar and search input */
-      .sidebar,
-      .search input {
+      /* Apply rounded corners specifically to the sidebar */
+      .sidebar {
         border-radius: var(--sidebar-border-radius);
       }
 
@@ -61,74 +58,73 @@
         font-size: 17px;
       }
 
-      /* Styling for the search bar within the sidebar */
+      /* --- Search Bar Styling (inside sidebar, to the right) --- */
+      /* Target the search container specifically within the sidebar */
       .sidebar .search {
-        /* Use flexbox to control layout within the search container */
-        display: flex;
-        /* Push content to the right edge of the container */
-        justify-content: flex-end;
-        /* Vertically align items in the middle */
-        align-items: center;
-        /* Adjust padding around the search bar for spacing */
-        padding: 15px 15px 5px 15px;
-        /* Ensure padding is included in the element's total dimensions */
-        box-sizing: border-box;
+        display: flex; /* Use flexbox to align content */
+        justify-content: flex-end; /* Push items to the right */
+        align-items: center; /* Vertically center items */
+        padding: 15px 15px 5px 15px; /* Adjust padding around the search bar */
+        box-sizing: border-box; /* Include padding in element's total width */
       }
 
       .sidebar .search input {
-        /* Allow the input to take full width within its flex container */
-        width: 100%;
-        /* Limit the maximum width of the search input for better aesthetics */
-        max-width: 250px; /* Adjust as needed */
-        /* Adjust padding inside the input field */
-        padding: 8px 12px;
+        width: 100%; /* Allow input to take full width of its container */
+        max-width: 250px; /* Limit maximum width for aesthetics */
+        padding: 8px 12px; /* Inner padding for text */
         font-size: 15px;
-        /* Apply border with a color variable for theme adaptability */
-        border: 1px solid var(--border-color);
-        /* Remove default browser outline on focus */
-        outline: none;
-        /* Smooth transition for border color changes on focus or theme switch */
-        transition: border-color 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+        border-radius: var(--sidebar-border-radius); /* Rounded corners for input */
+        border: 1px solid var(--border-color-light); /* Default light mode border */
+        outline: none; /* Remove default focus outline */
+        transition: border-color 0.3s ease, background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
       }
 
-      /* Adjust search input background and text color for dark mode */
+      /* Adjust search input border and background for dark mode */
       .dark .sidebar .search input {
-        background-color: var(--code-background-color); /* Uses theme's code background for input */
-        color: var(--text-color); /* Ensures text is visible */
+        border-color: var(--border-color-dark); /* Dark mode border */
+        background-color: var(--code-background-color); /* Use theme's code background */
+        color: var(--text-color); /* Ensure text is visible */
       }
 
       /* Highlight border color when the search input is focused */
       .sidebar .search input:focus {
-        border-color: var(--theme-color); /* Uses the Docsify theme color */
+        border-color: var(--theme-color); /* Use the Docsify theme color */
       }
 
-      /* Add some top padding to the sidebar content for better spacing */
-      .sidebar {
-        padding-top: 10px;
-      }
-
-      /* Styles to make the dark mode toggle button more prominent */
+      /* --- Dark Mode Toggle Button Styling --- */
+      /* These styles ensure the button is fixed at the top-right and prominent */
       .docsify-darklight-theme-button {
-        z-index: 9999 !important; /* Ensure it's on top of everything */
+        z-index: 9999 !important; /* Ensure it's on top of everything else */
         position: fixed; /* Keep it fixed on the screen while scrolling */
-        top: 20px; /* Distance from the top of the viewport */
-        right: 20px; /* Distance from the right of the viewport */
-        background-color: var(--theme-color); /* Use the defined theme color */
-        color: white; /* White icon/text on the button */
-        border-radius: 50%; /* Make it a perfect circle */
-        width: 45px; /* Slightly larger for easier clicking */
-        height: 45px; /* Slightly larger */
-        display: flex; /* Use flexbox to center its content (the sun/moon icon) */
+        top: 20px; /* Distance from the top edge of the viewport */
+        right: 20px; /* Distance from the right edge of the viewport */
+        background-color: var(--theme-color); /* Uses the defined highlight color */
+        color: white; /* White icon/text for contrast */
+        border-radius: 50%; /* Makes the button perfectly circular */
+        width: 45px; /* Fixed width */
+        height: 45px; /* Fixed height (equal to width for circle) */
+        display: flex; /* Use flexbox to center its icon/content */
         justify-content: center;
         align-items: center;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* More pronounced shadow for visibility */
-        cursor: pointer; /* Indicate it's clickable */
-        transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* Adds a subtle shadow for depth */
+        cursor: pointer; /* Indicates that the element is clickable */
+        transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions on hover/state change */
       }
 
       .docsify-darklight-theme-button:hover {
-        background-color: #24b896; /* Slightly darker on hover */
-        box-shadow: 0 6px 15px rgba(0,0,0,0.4); /* More shadow on hover */
+        background-color: #24b896; /* Slightly darker shade of theme color on hover */
+        box-shadow: 0 6px 15px rgba(0,0,0,0.4); /* Enhanced shadow on hover */
+      }
+
+      /* Adjust Docsify's header/navbar to prevent overlap with the fixed button */
+      /* This adds padding to the right of the header if needed */
+      .docsify-top-navbar {
+        padding-right: 80px; /* Make space for the fixed button, adjust as needed */
+      }
+
+      /* Make space for the search box at the top of the sidebar so it doesn't overlap content */
+      .sidebar-nav {
+          padding-top: 10px; /* Add some padding above navigation links */
       }
     </style>
   </head>
@@ -136,53 +132,53 @@
     <div id="app"></div>
 
     <script>
-      // Docsify configuration
+      // Docsify configuration object
       window.$docsify = {
-        name: 'Config Journal',
-        repo: '', // You can add your GitHub repo URL here, e.g., 'https://github.com/your-username/your-repo'
-        loadSidebar: true, // Loads the _sidebar.md file
-        subMaxLevel: 2, // Controls the heading levels shown in the sidebar
+        name: 'Config Journal', // Name of your documentation site
+        repo: '', // Link to your GitHub repository (e.g., 'https://github.com/your-username/your-repo')
+        loadSidebar: true, // Enables loading of the _sidebar.md file
+        subMaxLevel: 2, // Maximum heading level to display in the sidebar (h1 and h2)
+        // Docsify Search Plugin configuration
         search: {
           maxAge: 86400000, // Expiration time for the search index in milliseconds (1 day)
-          paths: 'auto', // Automatically indexes all markdown files
-          placeholder: 'Search Docs', // Placeholder text for the search input
-          noData: 'No results found!', // Message when no results are found
-          depth: 2, // Search depth in headings
-          hideOtherSidebarContent: true, // Hides other sidebar content when search results are shown
+          paths: 'auto', // Automatically indexes all markdown files for search
+          placeholder: 'Search Docs', // Placeholder text for the search input field
+          noData: 'No results found!', // Message displayed when no search results are found
+          depth: 2, // Search depth in headings (h1, h2)
+          hideOtherSidebarContent: true, // Hides other sidebar content when search results are displayed
         },
+        // Alias for sidebar markdown file (ensures it's always loaded from _sidebar.md)
         alias: {
-          // Allows for aliasing paths, useful for custom sidebar paths
           '/.*/_sidebar.md': '/_sidebar.md'
         },
+        // Docsify Darklight Theme configuration
         darklightTheme: {
-          defaultTheme: 'dark', // Sets the default theme to dark
-          siteFont: 'Fira Sans, sans-serif',
-          codeFontFamily: 'Fira Code, monospace', // Assuming Fira Code is available or a fallback
-          bodyFontSize: '17px',
+          defaultTheme: 'dark', // Sets the initial theme to 'dark'
+          siteFont: 'Fira Sans, sans-serif', // Font family for the main site text
+          codeFontFamily: 'Fira Code, monospace', // Font family for code blocks (requires Fira Code or a monospace fallback)
+          bodyFontSize: '17px', // Base font size for the body
           dark: {
-            background: '#111',
-            highlightColor: '#2bd8aa',
-            codeBackgroundColor: '#1e1e1e'
+            background: '#111', // Background color for dark theme
+            highlightColor: '#2bd8aa', // Highlight color for dark theme
+            codeBackgroundColor: '#1e1e1e' // Background color for code blocks in dark theme
           },
           light: {
-            background: '#ffffff',
-            highlightColor: '#007acc',
-            codeBackgroundColor: '#f6f8fa'
+            background: '#ffffff', // Background color for light theme
+            highlightColor: '#007acc', // Highlight color for light theme
+            codeBackgroundColor: '#f6f8fa' // Background color for code blocks in light theme
           }
         }
       };
     </script>
 
-    <!-- Docsify Core JavaScript -->
+    <!-- Docsify Core JavaScript Library -->
     <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 
-    <!-- Docsify Dark Mode Toggle Plugin -->
+    <!-- Docsify Dark Mode Toggle Plugin JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-theme.min.js"></script>
 
-    <!-- Docsify Search Plugin -->
+    <!-- Docsify Search Plugin JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 
-    <!-- Docsify External Script for dynamic content loading, if needed -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script> -->
   </body>
 </html>
