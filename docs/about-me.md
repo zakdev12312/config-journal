@@ -12,4 +12,4 @@ Thanks for being here.
 
 —
 🔗 [GitHub Profile](https://github.com/zakdev12312)
-🌐 [Live Site](https://zakdev12312.github.io/config-journal/)
+🌐 [Live Docs](https://zakdev12312.github.io/config-journal/)
