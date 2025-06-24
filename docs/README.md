@@ -13,6 +13,8 @@ Minimal stack, maximum clarity.
 
 ---
 
+This repository is licensed under the MIT License. Refer to /docs to learn more.
+
 Please feel free to sugegst an app in [![Issues](https://img.shields.io/badge/Issues-blue)](https://github.com/zakdev12312/config-journal/issues)
 
 

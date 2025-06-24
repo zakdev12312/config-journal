@@ -2,32 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>My Config Journal</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Config Journal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="favicon.ico" />
 
+    <!-- Fira Sans font -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet" />
+
     <!-- Darklight theme stylesheet -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-theme.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-theme.min.css" />
   </head>
   <body>
     <div id="app"></div>
 
     <script>
       window.$docsify = {
-        name: 'My Config Journal',
+        name: 'Config Journal',
         repo: '',
         loadSidebar: true,
         subMaxLevel: 2,
-        loadNavbar: false,
+        search: 'auto',
         alias: {
           '/.*/_sidebar.md': '/sidebar.md'
         },
         darklightTheme: {
           defaultTheme: 'dark',
-          siteFont: 'Inter, sans-serif',
+          siteFont: 'Fira Sans, sans-serif',
           codeFontFamily: 'Fira Code, monospace',
           bodyFontSize: '17px',
           dark: {
@@ -47,7 +47,10 @@
     <!-- Docsify core -->
     <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 
-    <!-- Darklight plugin -->
+    <!-- Dark mode toggle -->
     <script src="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-theme.min.js"></script>
+
+    <!-- Search plugin -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   </body>
 </html>
