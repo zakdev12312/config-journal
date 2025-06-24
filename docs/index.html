@@ -6,11 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="favicon.ico" />
 
-    <!-- Fira Sans font -->
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet" />
 
-    <!-- Darklight theme stylesheet -->
+    <!-- Darklight theme styles -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-theme.min.css" />
+    <style>
+      :root {
+        --base-font-family: 'Fira Sans', sans-serif;
+        --theme-color: #2bd8aa;
+        --sidebar-border-radius: 8px;
+      }
+
+      .sidebar,
+      .app-name,
+      .search,
+      .sidebar-nav li {
+        border-radius: var(--sidebar-border-radius);
+      }
+
+      .sidebar-nav ul > li > a::after {
+        content: '▾';
+        float: right;
+        transform: rotate(0deg);
+        transition: transform 0.2s ease;
+      }
+
+      .sidebar-nav ul > li.active > a::after {
+        transform: rotate(-180deg);
+      }
+
+      .sidebar ul {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .markdown-section {
+        font-size: 17px;
+      }
+
+      .app-name {
+        font-family: var(--base-font-family);
+        font-weight: 600;
+        font-size: 22px;
+      }
+    </style>
   </head>
   <body>
     <div id="app"></div>
@@ -23,7 +63,7 @@
         subMaxLevel: 2,
         search: 'auto',
         alias: {
-          '/.*/_sidebar.md': '/sidebar.md'
+          '/.*/_sidebar.md': '/_sidebar.md'
         },
         darklightTheme: {
           defaultTheme: 'dark',
@@ -44,13 +84,8 @@
       };
     </script>
 
-    <!-- Docsify core -->
     <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-
-    <!-- Dark mode toggle -->
     <script src="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-theme.min.js"></script>
-
-    <!-- Search plugin -->
     <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   </body>
 </html>
