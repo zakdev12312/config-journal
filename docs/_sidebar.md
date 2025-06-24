@@ -15,4 +15,4 @@
   - [About Me](/about-me.md)
 
 - 📄 License
-  - [View License](LICENSE.md)
+  - [View License](LICENSE)
