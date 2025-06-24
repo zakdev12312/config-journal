@@ -1,6 +1,6 @@
 # About Me
 
-Hey — I'm Zakariya.
+Hey — I'm zak
 
 I document my setup because I believe tools should be quiet, purposeful, and personal. This repo is my config journal: a space to think clearly about the defaults I trust, the tweaks I make, and the systems I build.
 
