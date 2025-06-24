@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <title>My Config Journal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="favicon.ico" />
 
-    <!-- Optional: Custom styles -->
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- Darklight theme -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-theme.min.css"
+    />
   </head>
   <body>
     <div id="app"></div>
@@ -15,17 +18,33 @@
     <script>
       window.$docsify = {
         name: 'My Config Journal',
-        repo: '', // Leave blank to hide GitHub corner
+        repo: '',
         loadSidebar: true,
         subMaxLevel: 2,
         loadNavbar: false,
-        themeColor: '#333',
         alias: {
-          '/.*/_sidebar.md': '/sidebar.md' // Ensures the sidebar loads for all routes
+          '/.*/_sidebar.md': '/sidebar.md'
+        },
+        darklightTheme: {
+          defaultTheme: 'dark',
+          siteFont: 'Inter, sans-serif',
+          codeFontFamily: 'Fira Code, monospace',
+          bodyFontSize: '17px',
+          dark: {
+            background: '#111',
+            highlightColor: '#2bd8aa',
+            codeBackgroundColor: '#1e1e1e'
+          },
+          light: {
+            background: '#ffffff',
+            highlightColor: '#007acc',
+            codeBackgroundColor: '#f6f8fa'
+          }
         }
       };
     </script>
 
-    <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-theme.min.js"></script>
   </body>
 </html>
