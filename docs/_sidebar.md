@@ -12,7 +12,7 @@
   - [Typography](typography.md)
 
 - ➕ More
-  - [About Me](/about-me.md)
+  - [About Me](about-me.md)
 
 - 📄 License
-  - [View License](LICENSE)
+  - [View License](LICENSE.md)
