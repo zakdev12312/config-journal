@@ -11,5 +11,8 @@
   - [Web Browsing](web.md)
   - [Typography](typography.md)
 
+- Meta
+  - [About Me](about-me.md)
+
 - 📄 License
   - [View License](LICENSE.md)
