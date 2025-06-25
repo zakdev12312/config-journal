@@ -1,18 +1,18 @@
 - 🏠 [Home](README.md)
 
-- ✍️ Setups
+- 🛠️ Essentials
   - [Defaults](defaults.md)
-  - [Windows Setup](winboot.md)
   - [Privacy Stack](shields-up.md)
-
-- 📦 Core Tools
+  - [Setup Notes](setup.md)
   - [Notes](notespace.md)
-  - [File Transfer](transfer.md)
-  - [Web Browsing](web.md)
-  - [Typography](typography.md)
+  - [File Transfers](transfer.md)
+  - [Typing](typeography.md)
+  - [Web](web.md)
+  - [Windows Setup](winboot.md)
 
-- ➕ More
-  - [About Me](about-me.md)
+- 🎮 Game Reviews
+  - [Review Hub](game-reviews.md)
 
-- 📄 License
-  - [View License](LICENSE.md)
+- 📄 Other
+  - [About Me](about.md)
+  - [Suggest a Game](suggestions.md)
