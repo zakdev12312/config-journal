@@ -16,7 +16,7 @@ A snapshot of my preferred tools, apps, and settings. Helps me stay consistent a
 
 - **Browser:** Opera (with uBlock Origin, LibRedirect) [![Opera](https://img.shields.io/badge/Opera-red)](https://opera.com)
 - **DNS:** NextDNS (DoH), fallback: Cloudflare `1.1.1.1` [![NextDNS](https://img.shields.io/badge/NextDNS-blue)](https://nextdns.io)
-- **VPN:** Surfshark (use code BOSS by MrWhoseTheBoss great deal) [![(https://img.shields.io/badge/Surfshark-VPN-blue)](https://surfshark.com/influencer/mrwhosetheboss?coupon=boss&utm_source=partner&utm_medium=15151&utm_content=qr_code)
+- **VPN:** Surfshark (use code BOSS by MrWhoseTheBoss great deal) [![(https://img.shields.io/badge/Surfshark-VPN-blue)](https://surfshark.com/boss)
 
 ---
 
