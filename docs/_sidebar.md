@@ -14,5 +14,5 @@
   - [Review Hub](game-reviews.md)
 
 - 📄 Other
-  - [About Me](about-me.md)
+  - [About Me](about.md)
   - [Suggest a Game](suggestions.md)
