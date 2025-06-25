@@ -56,7 +56,7 @@ Works well across headers, nav, and body copy. Underrated.
 
 ## Notes
 
-- To try one of these, include a `<link>` in your `index.html` like:
+- To try one of these yourself, include a `<link>` in your `index.html` like:
 
 ```html
 <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" />
