@@ -1,7 +1,18 @@
 # 🎮 Game Reviews
 
 Welcome to the vault — a growing archive of personal takes on games that matter, surprise, or straight-up shaped who I am.
+---
 
+## 📚 Full Library
+
+Looking for every reviewed title in one place?  
+→ [Browse the Game Library Index](game-library-index.md)
+
+---
+
+## 🗳️ Suggest a Game
+
+Have a title I should check out? Drop it [here](suggestions.md).
 ---
 
 <details>
