@@ -11,7 +11,9 @@ Welcome to the vault — a growing archive of personal takes on games that matte
 > The first swing, the first suit, the first moment I *got it*.
 
 - [🕷️ Marvel’s Spider-Man](games/sm.md)  
-  _A game that wasn’t just fun — it was foundational._
+  _A game that wasn’t just fun — it was foundational._  
+- [⛏️ Minecraft](games/minecraft.md) 
+  _The sandbox that taught me how to explore, create, and imagine._
 
 </details>
 
@@ -38,7 +40,8 @@ Narrative-driven, emotion-forward — where the pacing is as important as the pl
 - [Firewatch](games/firewatch.md)  
 - [Road 96](games/road-96.md)  
 - [Marvel’s Spider-Man](games/sm.md)  
-- [Miles Morales](games/smmm.md)
+- [Miles Morales](games/smmm.md)  
+- [Ghost of Tsushima](games/ghost.md)
 
 </details>
 
@@ -50,7 +53,8 @@ Narrative-driven, emotion-forward — where the pacing is as important as the pl
 Design-forward games that lean into mood, mechanics, or both.
 
 - [art of rally](games/art-of-rally.md)  
-- [Marvel's Spier-Man 2](games/sm2.md)
+- [Marvel’s Spider-Man 2](games/sm2.md)  
+- [Stray](games/stray.md)
 
 </details>
 
@@ -62,7 +66,8 @@ Design-forward games that lean into mood, mechanics, or both.
 The joy of motion, traction, and track familiarity.
 
 - [art of rally](games/art-of-rally.md)  
-- [Gran Turismo 7](games/gt7.md)
+- [Gran Turismo 7](games/gt7.md)  
+- [Test Drive Unlimited Solar Crown](games/tdusc.md)
 
 </details>
 
@@ -73,7 +78,8 @@ The joy of motion, traction, and track familiarity.
 
 Games that weren’t “my thing” — but earned my respect anyway.
 
-- [Titanfall 2](games/titanfall2.md)
+- [Titanfall 2](games/titanfall2.md)  
+- [Squirrel with a Gun](games/squirrel-with-a-gun.md)
 
 </details>
 
@@ -86,7 +92,21 @@ Stylized chaos with tight mechanics and heavy stakes.
 
 - [Call of Duty: Black Ops Cold War](games/codbocw.md)  
 - [Spider-Man 2](games/sm.md)  
-- [Titanfall 2](games/titanfall-2.md)
+- [Titanfall 2](games/titanfall-2.md)  
+- [Ghost of Tsushima](games/ghost.md)
+
+</details>
+
+---
+
+<details>
+<summary>🌌 Atmosphere & Exploration</summary>
+
+Games that thrive on mood, immersion, or strange beauty.
+
+- [Ghost of Tsushima](games/ghost.md) 
+- [Stray](games/stray.md) 
+- [Squirrel with a Gun](games/squirrel-with-a-gun.md)
 
 </details>
 
@@ -100,7 +120,9 @@ Stylized chaos with tight mechanics and heavy stakes.
 - [Firewatch](games/firewatch.md)  
 - [Marvel’s Spider-Man](games/sm.md)  
 - [art of rally](games/art-of-rally.md)  
-- [Marvel's Spider-Man 2](games/sm2.md)
+- [Marvel’s Spider-Man 2](games/sm2.md)  
+- [Ghost of Tsushima](games/ghost.md
+- [Minecraft](games/minecraft.md)
 
 </details>
 
