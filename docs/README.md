@@ -6,6 +6,10 @@
 All documents, experiments, and general chaos live here:  
 [→ Open the Workspace](https://www.notion.so/team/21d5c699-f59d-818f-8747-0042b90427c5/join)
 
+## 💬 Discord Server  
+Join the community, drop tool recs, or scream into the config void:  
+[→ Join the Discord](https://discord.gg/HnhnMR9kBk)
+
 This repo is for:
 - 🧠 Curious tinkerers looking for minimalist toolchains
 - 🛠️ Anyone setting up a clean workspace without diving into dotfiles
@@ -20,6 +24,3 @@ Minimal stack, maximum clarity.
 This repository is licensed under the MIT License. Refer to /docs to learn more.
 
 Please feel free to sugegst an app in [![Issues](https://img.shields.io/badge/Issues-blue)](https://github.com/zakdev12312/config-journal/issues)
-
-
-
