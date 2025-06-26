@@ -1,41 +1,31 @@
-# 🤔 ABOUT THIS VAULT
+# 👤 ABOUT ME
 
-Welcome to the **Config Journal** — a digital garden of tools, thoughts, and tactical overthinks.
+Hey, I'm Zak — a config minimalist, vault architect, and full-time wrangler of systems that don’t like being told what to do.
 
-This isn’t a how-to. It’s a *why-I*.  
-A place where every extension, keyboard shortcut, and rogue folder name has a backstory. This repo exists to make sense of it all — for me, for anyone nosy, and for the version of me who forgot why I exiled that “productivity” app last summer.
-
----
-
-## 🧪 Origins  
-Started as a list. Became a habit. Eventually turned into a vault of personal OS standards, irreverent observations, and app retirements with full honors.
+This repo? It’s part documentation, part digital reflection, and part rebellion against bloated workflows. What started as a cleanup project has become a constantly evolving archive of the tools I trust, the rules I live by (digitally, anyway), and the odd config philosophy no one asked for but I wrote down anyway.
 
 ---
 
-## 🔍 What You’ll Find  
-- Docs on the tools I *actually* use  
-- Opinions disguised as policies  
-- Workflow notes with more structure than my calendar  
-- Notion pages for everything too chaotic for Markdown  
-- A gentle war against feature bloat
+## 🎛️ What I’m Into  
+- Building workflows that actually *work*  
+- Tools that do their job without needing a TED Talk  
+- Markdown everything  
+- Gaming as both escape and critical analysis  
+- Designing interfaces that respect your time (and eyeballs)
 
 ---
 
-## 💡 Philosophy  
-- **Minimal is good. Intentional is better.**  
-- **Privacy isn’t a feature request.**  
-- **If it doesn’t spark joy, it doesn’t get root access.**
+## 🧠 Why This Exists  
+So I can think clearly.  
+So others can borrow ideas without borrowing bloat.  
+So every decision has a home, even the ones I reverse later.
 
 ---
 
-## 📦 Why This Exists  
-So I don’t forget.  
-So you don’t have to start from zero.  
-And because somewhere out there, another human is wondering if it’s okay to uninstall half their setup and just run what feels right.
-
-(It is.)
+## 🗂️ Other Places to Explore  
+ - [My Notion Workspace](https://www.notion.so/Patch-Notes-21d5c699f59d808e91e4fb20e356978b?source=copy_link) full of wild subpages and structured chaos  
 
 ---
 
-See also: [Notion Workspace – the rest of the chaos lives here](https://www.notion.so/config-journal-docs/Patch-Notes-21d5c699f59d808e91e4fb20e356978b?source=copy_link)
 
+> “Tech should serve the user — not the other way around.”
