@@ -37,5 +37,5 @@ And because somewhere out there, another human is wondering if it’s okay to un
 
 ---
 
-See also: [Notion Workspace – the rest of the chaos lives here](https://www.notion.so/team/21d5c699-f59d-818f-8747-0042b90427c5/join)
+See also: [Notion Workspace – the rest of the chaos lives here](https://www.notion.so/config-journal-docs/Patch-Notes-21d5c699f59d808e91e4fb20e356978b?source=copy_link)
 
