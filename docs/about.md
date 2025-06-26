@@ -1,6 +1,14 @@
 # 👤 ABOUT ME
 
 Hey, I'm Zak — a config minimalist, vault architect, and full-time wrangler of systems that don’t like being told what to do.
+## 🌐 Other Stuff
+
+A cozy corner of the internet where I hoard configs, reviews, and digital chaos — all wrapped in minimalist vibes and squirrel mischief.  
+(## 🌐 Carrd Profile
+
+A cozy corner of the internet where I hoard social profiles, reviews, and digital chaos — all wrapped in minimalist vibes and squirrel mischief.  
+→ [Visit My Carrd](https://your-carrd-link.carrd.co)
+
 
 This repo? It’s part documentation, part digital reflection, and part rebellion against bloated workflows. What started as a cleanup project has become a constantly evolving archive of the tools I trust, the rules I live by (digitally, anyway), and the odd config philosophy no one asked for but I wrote down anyway.
 
