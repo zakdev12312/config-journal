@@ -31,7 +31,7 @@ So every decision has a home, even the ones I reverse later.
 ---
 
 ## 🗂️ Other Places to Explore  
- - [My Notion Workspace](https://www.notion.so/Patch-Notes-21d5c699f59d808e91e4fb20e356978b?source=copy_link) full of wild subpages and structured chaos  
+ - [My Notion Workspace](config-journal-docs.notion.site)-full of wild subpages and structured chaos  
 
 ---
 
