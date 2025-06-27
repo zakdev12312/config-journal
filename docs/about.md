@@ -7,7 +7,7 @@ A cozy corner of the internet where I hoard configs, reviews, and digital chaos 
 (## 🌐 Carrd Profile
 
 A cozy corner of the internet where I hoard social profiles, reviews, and digital chaos — all wrapped in minimalist vibes and squirrel mischief.  
-→ [Visit My Carrd](https://your-carrd-link.carrd.co)
+→ [Visit My Carrd](https://zakdev.carrd.co/)
 
 
 This repo? It’s part documentation, part digital reflection, and part rebellion against bloated workflows. What started as a cleanup project has become a constantly evolving archive of the tools I trust, the rules I live by (digitally, anyway), and the odd config philosophy no one asked for but I wrote down anyway.
