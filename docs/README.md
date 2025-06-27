@@ -4,7 +4,8 @@
 
 ## 📎 Notion Workspace  
 All documents, experiments, and general chaos live here:  
-[→ Open the Workspace](https://www.notion.so/team/21d5c699-f59d-818f-8747-0042b90427c5/join)
+[→ Open the Workspace](config-journal-docs.notion.site)
+
 
 ## 💬 Discord Server  
 Join the community, drop tool recs, or scream into the config void:  

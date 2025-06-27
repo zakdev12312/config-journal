@@ -63,7 +63,7 @@ I didn’t just play it — I discovered something about myself in the process.
 
 ## 🎮 Personal Notes
 
-- First console: **PS4 Slim**  
+- First console: **PS4 Pro**  
 - Favorite suit: **Advanced Suit (original white spider)**  
 - Moment that hooked me: **web-zipping through Central Park at sunset, no mission — just motion**  
 - Time played: *Too much. Never enough.*
