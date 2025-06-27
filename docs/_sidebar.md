@@ -12,6 +12,10 @@
 
 - 🎮 Game Reviews
   - [Review Hub](game-reviews.md)
+  
+## 🧭 Vault Info
+
+  - [About the Vault](about-the-vault.md)
 
 - 📄 Other
   - [About Me](about.md)

@@ -128,6 +128,10 @@ Games that thrive on mood, immersion, or strange beauty.
 
 ---
 
+✦ Curious what all this is really about? [Read the origin story](about-the-vault.md)
+
+---
+
 ## 🗳️ Suggest a Game
 
 Have a title I should check out? Drop it [here](suggestions.md).
