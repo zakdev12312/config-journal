@@ -4,7 +4,7 @@
 
 ## 📎 Notion Workspace  
 All documents, experiments, and general chaos live here:  
-[→ Open the Workspace](config-journal-docs.notion.site)
+[→ Open the Workspace](https://www.notion.so/config-journal-docs/Patch-Notes-21d5c699f59d808e91e4fb20e356978b?source=copy_link)
 
 
 ## 💬 Discord Server  
