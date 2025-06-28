@@ -1,7 +1,7 @@
 # 📓 Config Journal – Entry Index
 
 A curated index of all non-game entries in the journal.  
-For game reviews, see [`/docs/games`](games/).
+For game reviews, see [Game Index](gameindex.md)
 
 ---
 
