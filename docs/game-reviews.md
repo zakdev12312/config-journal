@@ -6,7 +6,7 @@ Welcome to the vault — a growing archive of personal takes on games that matte
 ## 📚 Full Library
 
 Looking for every reviewed title in one place?  
-→ [Browse the Game Library Index](index.md)
+→ [Browse the Game Library Index](gameindex.md)
 
 ---
 

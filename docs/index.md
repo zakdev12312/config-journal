@@ -1,49 +1,59 @@
-# 🗂️ Game Library Index
+# 📓 Config Journal – Entry Index
 
-A full A–Z index of every game with its own markdown log.
+A curated index of all non-game entries in the journal.  
+For game reviews, see [`/docs/games`](games/).
 
 ---
 
-## 🔡 A–Z Index
+## 🧠 Core Concepts & Philosophy
 
-- **art of rally**  
-  → [Read Review](games/art-of-rally.md)
+- [about.md](about.md)  
+  _A personal introduction—who I am, how I think, and why this journal exists._
 
-- **Call of Duty: Black Ops Cold War**  
-  → [Read Review](games/codbocw.md)
+- [about-the-vault.md](about-the-vault.md)  
+  _A deeper dive into the philosophy behind the vault and its design._
 
-- **Firewatch**  
-  → [Read Review](games/firewatch.md)
+- [defaults.md](defaults.md)  
+  _My baseline preferences for tools, themes, and workflows._
 
-- **Ghost of Tsushima**  
-  → [Read Review](games/ghost.md)
+- [typography.md](typography.md)  
+  _Notes on type, spacing, and the visual rhythm of text._
 
-- **Gran Turismo 7**  
-  → [Read Review](games/gt7.md)
+---
 
-- **Marvel’s Spider-Man**  
-  → [Read Review](games/sm.md)
+## 🧰 Tools & System Setup
 
-- **Marvel’s Spider-Man 2**  
-  → [Read Review](games/sm2.md)
+- [winboot.md](winboot.md)  
+  _My approach to setting up and configuring Windows from scratch._
 
-- **Marvel’s Spider-Man: Miles Morales**  
-  → [Read Review](games/smmm.md)
+- [web.md](web.md)  
+  _Thoughts on web browsers, extensions, and how I shape my browsing experience._
 
-- **Minecraft**  
-  → [Read Review](games/minecraft.md)
+- [shields-up.md](shields-up.md)  
+  _Privacy-first workflows, DNS, and self-hosting strategies._
 
-- **Road 96**  
-  → [Read Review](games/road-96.md)
+- [transfer.md](transfer.md)  
+  _How I handle file transfers between devices and environments._
 
-- **Squirrel with a Gun**  
-  → [Read Review](games/squirrel-with-a-gun.md)
+- [notespace.md](notespace.md)  
+  _A scratchpad for ideas, drafts, and spontaneous thoughts._
 
-- **Stray**  
-  → [Read Review](games/stray.md)
+---
 
-- **Test Drive Unlimited Solar Crown**  
-  → [Read Review](games/tdusc.md)
+## 🧪 Experiments & Reflections
 
-- **Titanfall 2**  
-  → [Read Review](games/titanfall2.md)
+- [suggestions.md](suggestions.md)  
+  _A log of ideas, feedback, and things to explore._
+
+- [index.md](index.md)  
+  _This file. The central index of all non-game entries._
+
+---
+
+## 📄 Meta
+
+- [README.md](README.md)  
+  _Intro and usage notes for the repo._
+
+- [LICENSE.md](LICENSE.md)  
+  _License information for the content._
