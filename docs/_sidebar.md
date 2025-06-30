@@ -6,7 +6,7 @@
   - [Setup Notes](setup.md)
   - [Notes](notespace.md)
   - [File Transfers](transfer.md)
-  - [Typing](typeography.md)
+  - [Typing](typography.md)
   - [Web](web.md)
   - [Windows Setup](winboot.md)
 - [📓 Entry Index](index.md)
