@@ -79,6 +79,7 @@ The joy of motion, traction, and track familiarity.
 - [art of rally](games/art-of-rally.md)  
 - [Gran Turismo 7](games/gt7.md)  
 - [Test Drive Unlimited Solar Crown](games/tdusc.md)
+- [Forza Horizon 5](games/horizon5.md)
 
 </details>
 
