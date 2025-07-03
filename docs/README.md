@@ -24,7 +24,7 @@ Minimal stack, maximum clarity.
 ---
 
 🗃️ Dive deeper into the philosophy behind this markdown mayhem:  
-→ [About the Vault →](about-the-vault.md)
+ [About the Vault →](about-the-vault.md)
 
 ---
 
