@@ -1,6 +1,7 @@
 ## 📓 What is Config Journal?
 
-*Config Journal* is a plain-text archive of my personal digital setup—focused on simplicity, privacy, and efficiency. No configs to clone, no scripts to run—just clean markdown notes documenting the apps I use, the tweaks I make, and how I stay focused in a bloated digital world. This repository is also MY take on (almost) everything tech.
+*Config Journal* is a plain-text archive of my personal digital setup—focused on simplicity, privacy, and efficiency. No configs to clone, no scripts to run—just clean markdown notes documenting the apps I use, the tweaks I make, and how I stay focused in a bloated digital world. My interpretation of (almost) everything tech—quietly opinionated, always in progress.
+
 
 ## 📎 Notion Workspace  
 All documents, experiments, and general chaos live here:  
