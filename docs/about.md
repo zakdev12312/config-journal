@@ -3,9 +3,6 @@
 Hey, I'm Zak — a config minimalist, vault architect, and full-time wrangler of systems that don’t like being told what to do.
 ## 🌐 Other Stuff
 
-A cozy corner of the internet where I hoard configs, reviews, and digital chaos — all wrapped in minimalist vibes and squirrel mischief.  
-(## 🌐 Carrd Profile
-
 A cozy corner of the internet where I hoard social profiles, reviews, and digital chaos — all wrapped in minimalist vibes and squirrel mischief.  
 → [Visit My Carrd](https://zakdev.carrd.co/)
 
