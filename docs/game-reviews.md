@@ -80,6 +80,7 @@ The joy of motion, traction, and track familiarity.
 - [Gran Turismo 7](games/gt7.md)  
 - [Test Drive Unlimited Solar Crown](games/tdusc.md)
 - [Forza Horizon 5](games/horizon5.md)
+- [Forza Horizon 4](games/horizon4.md)
 
 </details>
 
