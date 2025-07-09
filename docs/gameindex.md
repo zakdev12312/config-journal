@@ -15,6 +15,12 @@ A full A–Z index of every game with its own markdown log.
 - **Firewatch**  
   → [Read Review](games/firewatch.md)
 
+- **Forza Horizon 4**
+   → [Read Review](games/horizon4.md)
+
+- **Forza Horizon 5**
+   →[Read Review](games/horizon5.md)
+    
 - **Ghost of Tsushima**  
   → [Read Review](games/ghost.md)
 
