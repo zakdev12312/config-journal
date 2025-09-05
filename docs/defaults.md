@@ -22,7 +22,7 @@ A snapshot of my preferred tools, apps, and settings. Helps me stay consistent a
 
 ## 🧠 Productivity
 
-- **Note-taking:** Obsidian/ Karakeep
+- **Note-taking:** Obsidian
 - **Clipboard:** Win+V (enable in Windows settings)
 - **Launcher:** Fluent Search (minimal profile) [![Fluent Search](https://img.shields.io/badge/Fluent-Search-lightblue)](https://fluentsearch.net)
 - **Notion** [![Notion](https://img.shields.io/badge/Notion-grey)](https://notion.com)
@@ -48,7 +48,7 @@ A snapshot of my preferred tools, apps, and settings. Helps me stay consistent a
 ## 🧪 Extras
 
 - **Self-Hosting Stack:** Kasm → Firefox 
-- ** Self-Hosting Stack:** Raspberry Pi → Karakeep [![Karakeep](https://img.shields.io/badge/Karakeep-grey)](https://karakeep.app)
+- **Self-Hosting Stack:** Raspberry Pi → Karakeep [![Karakeep](https://img.shields.io/badge/Karakeep-grey)](https://karakeep.app)
 
 ---
 
