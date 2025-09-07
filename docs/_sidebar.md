@@ -9,6 +9,7 @@
   - [Typing](typography.md)
   - [Web](web.md)
   - [Windows Setup](winboot.md)
+  - [KasmCE Setup & Install](kasminstall.md)
 - [📓 Entry Index](index.md)
 - 🎮 Game Reviews
   - [Review Hub](game-reviews.md)
