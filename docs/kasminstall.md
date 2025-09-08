@@ -51,25 +51,25 @@ Select additional software if needed
 
 Complete installation and reboot
 After reboot, log in and update:
-```
+```bash
 sudo apt update && sudo apt upgrade -y
 ```
 Part 2: Network Configuration
 
 Step 1: Configure Static IP (Recommended)
 Find your current IP and network info: 
-```
+```bash
 
 ip addr show
 ip route show
 ```
 Edit netplan configuration:
-```
+```bash
 
 sudo nano /etc/netplan/00-installer-config.yaml
 ```
 Configure static IP (adjust values for your network):
-```
+```bash
 network:
   ethernets:
     eth0:
@@ -82,12 +82,12 @@ network:
   version: 2
   ```
   Apply configuration:
-  ```
+  ```bash
   sudo netplan apply
   ```
   
   Step 2: Configure Firewall
-  ```
+  ```bash
   
   # Enable UFW
 sudo ufw enable
@@ -105,7 +105,7 @@ sudo ufw status
 Part 3: Installing KasmCE
 
 Step 1: Install Prerequisites
-```
+```bash
 
 # Update system
 sudo apt update && sudo apt upgrade -y
@@ -147,14 +147,13 @@ sudo systemctl start docker
 exit
 ```
 Log back in via SSH and verify Docker:
-```
+```bash
 
 docker --version
 docker compose version
 ```
 Step 3: Download and Install KasmCE
-
-```
+```bash
 
 # Create installation directory
 mkdir ~/kasm-install
@@ -194,7 +193,7 @@ Start all services
 Part 4: Post-Installation Configuration
 
 Step 1: Verify Installation
-```
+```bash
 
 # Check if all containers are running
 sudo docker ps
@@ -228,7 +227,7 @@ Assign workspaces to users
 Part 5: SSL Certificate Configuration (Optional but Recommended)
 
 Option 1: Let's Encrypt (if you have a domain)
-```
+```bash
 # Install certbot
 sudo apt install -y certbot
 
@@ -251,7 +250,7 @@ sudo /opt/kasm/bin/start
 ```
 Option 2: Self-Signed Certificate (Default)
 The installation creates self-signed certificates automatically. To regenerate:
-```
+```bash
 
 sudo /opt/kasm/bin/stop
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
@@ -263,7 +262,7 @@ sudo /opt/kasm/bin/start
 ```
 Part 6: System Management
 Useful Commands
-```
+```bash
 # Start Kasm services
 sudo /opt/kasm/bin/start
 
@@ -287,7 +286,7 @@ cd ~/kasm-install
 ```
 
 System Monitoring
-```
+```bash
 
 # Check system resources
 htop
@@ -321,7 +320,7 @@ Access via https://kasm.local
 Troubleshooting
 Common Issues
 Services won't start:
-```
+```bash
 
 sudo docker system prune -f
 sudo /opt/kasm/bin/stop
@@ -329,7 +328,7 @@ sudo /opt/kasm/bin/start
 ```
 
 Low disk space:
-```
+```bash
 
 sudo docker system prune -a
 sudo apt autoremove -y
@@ -339,7 +338,7 @@ Increase VM RAM to 16GB+
 Add more CPU cores
 Enable nested virtualization if needed
 Network connectivity:
-```
+```bash
 
 # Test connectivity
 ping google.com
@@ -349,7 +348,7 @@ nslookup google.com
 sudo ufw status verbose
 ```
 Database issues:
-```
+```bash
 
 # Reset database (WARNING: This removes all data)
 sudo /opt/kasm/bin/stop
