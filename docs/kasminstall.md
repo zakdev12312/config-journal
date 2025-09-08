@@ -1,7 +1,7 @@
 Complete KasmCE Installation Guide on Ubuntu Server VM (Hyper-V)
 Part 1: Setting up Ubuntu Server VM in Hyper-V
 
-Prerequisites
+Prerequisites:
 Windows 10/11 Pro/Enterprise with Hyper-V enabled
 At least 8GB RAM available for the VM
 60GB+ free disk space
