@@ -1,4 +1,4 @@
-# 👤 ABOUT ME
+# 👤 About Me
 
 Hey, I'm Zak — a config minimalist, vault architect, and full-time wrangler of systems that don’t like being told what to do.
 ## 🌐 Other Stuff
