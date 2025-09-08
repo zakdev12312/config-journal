@@ -38,6 +38,7 @@ Have a title I should check out? Drop it [here](suggestions.md).
 - [Marvel’s Spider-Man](games/sm.md)  
 - [Spider-Man: Miles Morales](games/smmm.md)  
 - [Spider-Man 2](games/sm2.md)
+- [Portal 2](games/portal2.md)
 
 </details>
 
@@ -83,6 +84,7 @@ Design-forward games that lean into mood, mechanics, or both.
 - [art of rally](games/art-of-rally.md)  
 - [Marvel’s Spider-Man 2](games/sm2.md)  
 - [Stray](games/stray.md)
+- [Portal](games/portal.md)
 
 </details>
 

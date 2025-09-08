@@ -1,9 +1,3 @@
-# 🗂️ Game Library Index
-
-A full A–Z index of every game with its own markdown log.
-
----
-
 ## 🔡 A–Z Index
 
 - **art of rally**  
@@ -15,11 +9,11 @@ A full A–Z index of every game with its own markdown log.
 - **Firewatch**  
   → [Read Review](games/firewatch.md)
 
-- **Forza Horizon 4**
-   → [Read Review](games/horizon4.md)
+- **Forza Horizon 4**  
+  → [Read Review](games/horizon4.md)
 
-- **Forza Horizon 5**
-   →[Read Review](games/horizon5.md)
+- **Forza Horizon 5**  
+  → [Read Review](games/horizon5.md)
     
 - **Ghost of Tsushima**  
   → [Read Review](games/ghost.md)
@@ -38,6 +32,12 @@ A full A–Z index of every game with its own markdown log.
 
 - **Minecraft**  
   → [Read Review](games/minecraft.md)
+
+- **Portal**  
+  → [Read Review](games/portal.md)
+
+- **Portal 2**  
+  → [Read Review](games/portal2.md)
 
 - **Road 96**  
   → [Read Review](games/road-96.md)
