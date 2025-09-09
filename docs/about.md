@@ -32,5 +32,7 @@ So every decision has a home, even the ones I reverse later.
 
 ---
 
+## Read more about me (Coming Soon!)
+ - [More about me](moreaboutme.md)
 
 > “Tech should serve the user — not the other way around.”
