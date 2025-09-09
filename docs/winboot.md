@@ -22,10 +22,6 @@
 ## 🔧 Post-Install Essentials
 - 🌐 Install Brave and sync your keychain (or fresh start)
 - ✨ Run Talon to debloat and optimize performance [Talon](https://debloat.win/)
-- 📦 Install:
-  - Portainer via Docker Desktop
-  - Peppermint (Zammad alternative)  
-  - Any tunneling layers (boringproxy, Tsocket, Remote.it)
 
 ---
 
@@ -42,7 +38,7 @@
 ---
 
 ## 🎨 Visual Setup
-- 🖼️ Minimalist wallpaper (match cockpit palette on Wallpaper Engine)
+- 🖼️ Minimalist wallpaper (matching palette on Wallpaper Engine)
 - 🌓 Theme: Dark always
 - 💡 Font and scaling tuned for clarity
 
