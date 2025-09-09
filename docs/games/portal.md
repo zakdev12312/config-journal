@@ -38,6 +38,6 @@ It’s rare for a game this compact to feel so complete. Every test chamber is a
 ---
 
 ### 🧘 Final Thought  
-*Portal* is a **masterclass in restraint and design clarity**. It doesn’t explain—it invites. And in doing so, it becomes more than a puzzle game. It becomes a quiet question: *What happens when the walls start talking back?*
+*Portal* is a *masterclass* **in restraint and design clarity**. It doesn’t explain—it invites. And in doing so, it becomes more than a puzzle game. It becomes a quiet question: *What happens when the walls start talking back?*
 
 ---
