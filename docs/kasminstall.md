@@ -1,4 +1,4 @@
-Complete KasmCE Installation Guide on Ubuntu Server VM (Hyper-V)
+## Complete KasmCE Installation Guide on Ubuntu Server VM (Hyper-V)
 Part 1: Setting up Ubuntu Server VM in Hyper-V
 
 Prerequisites:
