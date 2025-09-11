@@ -4,7 +4,7 @@ Part 1: Setting up Ubuntu Server VM in Hyper-V
 Prerequisites:
 Windows 10/11 Pro/Enterprise with Hyper-V enabled
 At least 8GB RAM available for the VM
-60GB+ free disk space
+60GB+ free disk space (100GB recommended)
 Ubuntu Server 22.04 LTS ISO downloaded
 
 Step 1: Enable Hyper-V (if not already enabled)
