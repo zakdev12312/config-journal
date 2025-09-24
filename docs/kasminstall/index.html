@@ -9,32 +9,33 @@
     <meta name="generator" content="Retype 3.11.0">
 
     <!-- Primary Meta Tags -->
-    <title>&#128211; Config Journal – Entry Index</title>
-    <meta name="title" content="📓 Config Journal – Entry Index">
-    <meta name="description" content="A curated index of all non-game entries in the journal. For game reviews, see Game Index">
+    <title>KasmCE Setup</title>
+    <meta name="title" content="KasmCE Setup">
+    <meta name="description" content="Part 1: Setting up Ubuntu Server VM in Hyper-V">
 
     <!-- Canonical -->
-    <link rel="canonical" href="/docs/">
+    <link rel="canonical" href="/docs/kasminstall/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/docs/">
-    <meta property="og:title" content="📓 Config Journal – Entry Index">
-    <meta property="og:description" content="A curated index of all non-game entries in the journal. For game reviews, see Game Index">
+    <meta property="og:url" content="/docs/kasminstall/">
+    <meta property="og:title" content="KasmCE Setup">
+    <meta property="og:description" content="Part 1: Setting up Ubuntu Server VM in Hyper-V">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="/docs/">
-    <meta property="twitter:title" content="📓 Config Journal – Entry Index">
-    <meta property="twitter:description" content="A curated index of all non-game entries in the journal. For game reviews, see Game Index">
+    <meta property="twitter:url" content="/docs/kasminstall/">
+    <meta property="twitter:title" content="KasmCE Setup">
+    <meta property="twitter:description" content="Part 1: Setting up Ubuntu Server VM in Hyper-V">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../resources/css/retype.css?v=3.11.0.812051882695" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.812051882695" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.11.0.812051882695" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.11.0.812051882695" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.812051882695" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.812051882695" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.11.0.812051882695" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -49,7 +50,7 @@
                 <!-- Logo -->
                 <div class="flex items-center justify-between h-full py-2 md:w-75">
                     <div class="flex items-center px-2 md:px-6">
-                        <a id="retype-branding-logo" href="../" class="flex items-center leading-snug text-xl">
+                        <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-xl">
                             <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">config-journal</span>
                         </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Docs</span>
                     </div>
@@ -62,7 +63,7 @@
                     <nav id="retype-header-nav" class="hidden md:flex">
                         <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                             <li class="mr-6">
-                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../docs/">Docs</a>
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../../docs/">Docs</a>
                             </li>
         
                         </ul>
@@ -139,7 +140,7 @@
                             <nav>
                                 <ul class="flex flex-wrap justify-center items-center">
                                     <li class="mr-6">
-                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../docs/">Docs</a>
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../../docs/">Docs</a>
                                     </li>
             
                                 </ul>
@@ -163,89 +164,367 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="retype-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="-config-journal--entry-index" class="break-words">
+<doc-anchor-target id="kasmce-setup" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-config-journal--entry-index">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F4D3;</span> Config Journal – Entry Index</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#kasmce-setup">#</doc-anchor-trigger>
+        <span>KasmCE Setup</span>
     </h1>
 </doc-anchor-target>
-<p>A curated index of all non-game entries in the journal.<br />
-For game reviews, see <a href="gameindex/">Game Index</a></p>
-<hr>
-<doc-anchor-target id="-core-concepts--philosophy">
+<doc-anchor-target id="complete-kasmce-installation-guide-on-ubuntu-server-vm-hyper-v">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-core-concepts--philosophy">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F9E0;</span> Core Concepts &amp; Philosophy</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#complete-kasmce-installation-guide-on-ubuntu-server-vm-hyper-v">#</doc-anchor-trigger>
+        <span>Complete KasmCE Installation Guide on Ubuntu Server VM (Hyper-V)</span>
     </h2>
 </doc-anchor-target>
-<ul>
-<li><p><a href="about/">About Me</a><br />
-<em>A personal introduction—who I am, how I think, and why this journal exists.</em></p>
-</li>
-<li><p><a href="about-the-vault/">About the Vault</a><br />
-<em>A deeper dive into the philosophy behind the vault and its design.</em></p>
-</li>
-<li><p><a href="defaults/">Defaults</a><br />
-<em>My baseline preferences for tools, themes, and workflows.</em></p>
-</li>
-<li><p><a href="typography.md">Typography</a><br />
-<em>Notes on type, spacing, and the visual rhythm of text.</em></p>
-</li>
-</ul>
-<hr>
-<doc-anchor-target id="-tools--system-setup">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-tools--system-setup">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F9F0;</span> Tools &amp; System Setup</span>
-    </h2>
-</doc-anchor-target>
-<ul>
-<li><p><a href="winboot/">Windows Setup</a><br />
-<em>My approach to setting up and configuring Windows from scratch.</em></p>
-</li>
-<li><p><a href="web/">Web Browsers</a><br />
-<em>Thoughts on web browsers, extensions, and how I shape my browsing experience.</em></p>
-</li>
-<li><p><a href="shields-up/">Privacy &amp; Self-Hosting</a><br />
-<em>Privacy-first workflows, DNS, and self-hosting strategies.</em></p>
-</li>
-<li><p><a href="transfer/">File Transfer</a><br />
-<em>How I handle file transfers between devices and environments.</em></p>
-</li>
-<li><p><a href="notespace/">Notespace</a><br />
-<em>A scratchpad for ideas, drafts, and spontaneous thoughts.</em></p>
-</li>
-</ul>
-<hr>
-<doc-anchor-target id="-experiments--reflections">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-experiments--reflections">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F9EA;</span> Experiments &amp; Reflections</span>
-    </h2>
-</doc-anchor-target>
-<ul>
-<li><p><a href="suggestions/">Suggestions</a><br />
-<em>A log of ideas, feedback, and things to explore.</em></p>
-</li>
-<li><p><a href="">Entry Index</a><br />
-<em>This file. The central index of all non-game entries.</em></p>
-</li>
-</ul>
-<hr>
-<doc-anchor-target id="-meta">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-meta">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F4C4;</span> Meta</span>
-    </h2>
-</doc-anchor-target>
-<ul>
-<li><p><a href="readme.md">README</a><br />
-<em>Intro and usage notes for the repo.</em></p>
-</li>
-<li><p><a href="license/">License</a><br />
-<em>License information for the content.</em></p>
-</li>
-</ul>
+<p>Part 1: Setting up Ubuntu Server VM in Hyper-V</p>
+<p>Prerequisites:
+Windows 10/11 Pro/Enterprise with Hyper-V enabled
+At least 8GB RAM available for the VM
+60GB+ free disk space (100GB recommended)
+Ubuntu Server 22.04 LTS ISO downloaded</p>
+<p>Step 1: Enable Hyper-V (if not already enabled)
+Open PowerShell as Administrator and run:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-none"><code v-pre class="language-none">
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All</code></pre>
+</doc-codeblock></div>
+<p>Restart your computer when prompted.
+Step 2: Create Virtual Switch
+Open Hyper-V Manager
+Click Virtual Switch Manager in the right panel
+Select External and click Create Virtual Switch
+Name it &quot;External Switch&quot; and select your network adapter
+Click Apply and OK</p>
+<p>Step 3: Create Ubuntu Server VM
+In Hyper-V Manager, click New → Virtual Machine
+Follow the wizard:</p>
+<p>Name: Ubuntu-KasmCE
+Generation: Generation 2
+Memory: 8192 MB (8GB) minimum
+Connection: External Switch (created above)
+Virtual Hard Disk: 60GB minimum
+Installation Options: Select Ubuntu Server ISO</p>
+<p>Important: Before starting, configure VM settings:
+Right-click VM → Settings
+Security → Uncheck &quot;Enable Secure Boot&quot;
+Processor → Set to 4 virtual processors minimum
+Memory → Enable Dynamic Memory (optional)</p>
+<p>Step 4: Install Ubuntu Server
+Start the VM and connect to it</p>
+<p>Follow Ubuntu installation:
+Select language and keyboard layout
+Choose &quot;Ubuntu Server&quot; installation
+Configure network (use DHCP for simplicity)
+Create user account (remember credentials)
+Important: Select &quot;Install OpenSSH server&quot; when prompted
+Select additional software if needed</p>
+<p>Complete installation and reboot
+After reboot, log in and update:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-bash"><code v-pre class="language-bash">sudo apt update &amp;&amp; sudo apt upgrade -y</code></pre>
+</doc-codeblock></div>
+<p>Part 2: Network Configuration</p>
+<p>Step 1: Configure Static IP (Recommended)
+Find your current IP and network info:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-bash"><code v-pre class="language-bash">
+ip addr show
+ip route show</code></pre>
+</doc-codeblock></div>
+<p>Edit netplan configuration:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-bash"><code v-pre class="language-bash">
+sudo nano /etc/netplan/00-installer-config.yaml</code></pre>
+</doc-codeblock></div>
+<p>Configure static IP (adjust values for your network):</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-bash"><code v-pre class="language-bash">network:
+  ethernets:
+    eth0:
+      dhcp4: no
+      addresses:
+        - 192.168.1.100/24
+      gateway4: 192.168.1.1
+      nameservers:
+        addresses: [8.8.8.8, 8.8.4.4]
+  version: 2</code></pre>
+</doc-codeblock></div>
+<p>Apply configuration:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-bash"><code v-pre class="language-bash">sudo netplan apply</code></pre>
+</doc-codeblock></div>
+<p>Step 2: Configure Firewall</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-bash"><code v-pre class="language-bash">
+# Enable UFW
+sudo ufw enable
+
+# Allow SSH
+sudo ufw allow 22
+
+# Allow KasmCE ports
+sudo ufw allow 443
+sudo ufw allow 80
+
+# Check status
+sudo ufw status</code></pre>
+</doc-codeblock></div>
+<p>Part 3: Installing KasmCE</p>
+<p>Step 1: Install Prerequisites</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-bash"><code v-pre class="language-bash">
+# Update system
+sudo apt update &amp;&amp; sudo apt upgrade -y
+
+# Install required packages
+sudo apt install -y \
+    curl \
+    wget \
+    gnupg \
+    lsb-release \
+    apt-transport-https \
+    ca-certificates \
+    software-properties-common
+    ```
+    Step 2: Install Docker
+    ```
+    
+    # Remove old Docker versions
+sudo apt remove docker docker-engine docker.io containerd runc
+
+# Add Docker GPG key
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+
+# Add Docker repository
+echo &quot;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable&quot; | sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+
+# Install Docker
+sudo apt update
+sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+# Add user to docker group
+sudo usermod -aG docker $USER
+
+# Enable Docker service
+sudo systemctl enable docker
+sudo systemctl start docker
+
+# Logout and login again for group changes to take effect
+exit</code></pre>
+</doc-codeblock></div>
+<p>Log back in via SSH and verify Docker:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-bash"><code v-pre class="language-bash">
+docker --version
+docker compose version</code></pre>
+</doc-codeblock></div>
+<p>Step 3: Download and Install KasmCE</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-bash"><code v-pre class="language-bash">
+# Create installation directory
+mkdir ~/kasm-install
+cd ~/kasm-install
+
+# Download latest KasmCE
+wget https://kasm-static-content.s3.amazonaws.com/kasm_release_1.14.0.3a7abb.tar.gz
+
+# Extract the archive
+tar -xf kasm_release_*.tar.gz
+
+# Navigate to installation directory
+cd kasm_release/
+
+# Make installation script executable
+chmod +x install.sh
+
+# Run the installation (this will take several minutes)
+sudo bash install.sh</code></pre>
+</doc-codeblock></div>
+<p>Step 4: Installation Configuration
+During installation, you&#x27;ll be prompted for:</p>
+<p>Swap file: Accept default (2GB) or adjust based on your VM&#x27;s RAM
+Database passwords: Set strong passwords (save these!)
+API user password: Set a strong password
+Registration token: Leave blank unless you have one
+Public hostname: Use your VM&#x27;s IP address or domain name
+The installer will:</p>
+<p>Download and configure all Docker containers
+Set up the database
+Configure nginx
+Create SSL certificates
+Start all services</p>
+<p>Part 4: Post-Installation Configuration</p>
+<p>Step 1: Verify Installation</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-bash"><code v-pre class="language-bash">
+# Check if all containers are running
+sudo docker ps
+
+# Check Kasm status
+sudo /opt/kasm/bin/stop
+sudo /opt/kasm/bin/start
+
+# View logs if needed
+sudo docker logs kasm_db
+sudo docker logs kasm_api
+sudo docker logs kasm_manager</code></pre>
+</doc-codeblock></div>
+<p>Step 2: Initial Access
+Open a web browser and navigate to:
+https://YOUR_VM_IP_ADDRESS (e.g., <a href="https://192.168.1.100">https://192.168.1.100</a> )
+You&#x27;ll see a security warning due to self-signed certificate - proceed anyway
+Login with default admin credentials:
+Username: <a href="mailto:admin@kasm.local">admin@kasm.local</a>
+Password: The password you set during installation
+Step 3: Basic Configuration
+Change Admin Password:
+Go to Admin → Users
+Click on admin user and change password
+Configure Workspaces:
+Go to Admin → Workspaces
+Enable desired workspaces (Ubuntu, Chrome, etc.)
+User Management:
+Create additional users in Admin → Users
+Assign workspaces to users
+Part 5: SSL Certificate Configuration (Optional but Recommended)</p>
+<p>Option 1: Let&#x27;s Encrypt (if you have a domain)</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-bash"><code v-pre class="language-bash"># Install certbot
+sudo apt install -y certbot
+
+# Stop nginx temporarily
+sudo docker stop kasm_proxy
+
+# Get certificate (replace with your domain)
+sudo certbot certonly --standalone -d yourdomain.com
+
+# Copy certificates to Kasm directory
+sudo cp /etc/letsencrypt/live/yourdomain.com/fullchain.pem /opt/kasm/current/certs/kasm_nginx.crt
+sudo cp /etc/letsencrypt/live/yourdomain.com/privkey.pem /opt/kasm/current/certs/kasm_nginx.key
+
+# Set proper permissions
+sudo chown kasm:kasm /opt/kasm/current/certs/kasm_nginx.*
+
+# Restart Kasm
+sudo /opt/kasm/bin/stop
+sudo /opt/kasm/bin/start</code></pre>
+</doc-codeblock></div>
+<p>Option 2: Self-Signed Certificate (Default)
+The installation creates self-signed certificates automatically. To regenerate:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-bash"><code v-pre class="language-bash">
+sudo /opt/kasm/bin/stop
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
+    -keyout /opt/kasm/current/certs/kasm_nginx.key \
+    -out /opt/kasm/current/certs/kasm_nginx.crt \
+    -subj &quot;/C=US/ST=VA/L=Any/O=Kasm/OU=Kasm/CN=kasm.local&quot;
+sudo chown kasm:kasm /opt/kasm/current/certs/kasm_nginx.*
+sudo /opt/kasm/bin/start</code></pre>
+</doc-codeblock></div>
+<p>Part 6: System Management
+Useful Commands</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-bash"><code v-pre class="language-bash"># Start Kasm services
+sudo /opt/kasm/bin/start
+
+# Stop Kasm services
+sudo /opt/kasm/bin/stop
+
+# View service status
+sudo docker ps -a
+
+# View logs
+sudo docker logs kasm_api
+sudo docker logs kasm_db
+sudo docker logs kasm_manager
+
+# Backup database
+sudo /opt/kasm/bin/backup --backup-dir /tmp/
+
+# Update Kasm (when new version available)
+cd ~/kasm-install
+# Download new version and run upgrade script</code></pre>
+</doc-codeblock></div>
+<p>System Monitoring</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-bash"><code v-pre class="language-bash">
+# Check system resources
+htop
+df -h
+free -h
+
+# Monitor Docker containers
+sudo docker stats
+
+# Check Kasm specific logs
+sudo tail -f /opt/kasm/current/log/api.log
+sudo tail -f /opt/kasm/current/log/manager.log</code></pre>
+</doc-codeblock></div>
+<p>Part 7: Accessing from Host Machine
+Method 1: Direct IP Access
+Open browser on Windows host
+Navigate to https://VM_IP_ADDRESS
+Accept security warning for self-signed certificate
+Method 2: Port Forwarding (if using NAT)
+If your VM uses NAT instead of External Switch:</p>
+<p>In Hyper-V Manager, go to VM Settings
+Add Network Adapter with NAT switch
+Configure port forwarding in Hyper-V NAT settings
+Method 3: DNS Configuration
+Add entry to Windows hosts file:</p>
+<p>Edit C:\Windows\System32\drivers\etc\hosts as Administrator
+Add line: VM_IP_ADDRESS kasm.local
+Access via <a href="https://kasm.local">https://kasm.local</a>
+Troubleshooting
+Common Issues
+Services won&#x27;t start:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-bash"><code v-pre class="language-bash">
+sudo docker system prune -f
+sudo /opt/kasm/bin/stop
+sudo /opt/kasm/bin/start</code></pre>
+</doc-codeblock></div>
+<p>Low disk space:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-bash"><code v-pre class="language-bash">
+sudo docker system prune -a
+sudo apt autoremove -y</code></pre>
+</doc-codeblock></div>
+<p>Performance issues:
+Increase VM RAM to 16GB+
+Add more CPU cores
+Enable nested virtualization if needed
+Network connectivity:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-bash"><code v-pre class="language-bash">
+# Test connectivity
+ping google.com
+nslookup google.com
+
+# Check firewall
+sudo ufw status verbose</code></pre>
+</doc-codeblock></div>
+<p>Database issues:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-bash"><code v-pre class="language-bash">
+# Reset database (WARNING: This removes all data)
+sudo /opt/kasm/bin/stop
+sudo docker volume rm kasm_db_1.14.0
+sudo /opt/kasm/bin/start</code></pre>
+</doc-codeblock></div>
+<p>Log Locations
+Application logs: /opt/kasm/current/log/
+Docker logs: sudo docker logs &lt;container_name&gt;
+System logs: /var/log/syslog
+Security Considerations
+Change default passwords
+Enable firewall with only necessary ports
+Regular updates: sudo apt update &amp;&amp; sudo apt upgrade
+Monitor logs for suspicious activity
+Use strong SSL certificates in production
+Limit user access appropriately
+Regular backups of configuration and data
+Your KasmCE installation is now complete and ready to use! You can access it from your Windows host machine and start creating containerized desktop sessions.</p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -255,23 +534,16 @@ For game reviews, see <a href="gameindex/">Game Index</a></p>
                             
                                 <nav id="retype-nextprev" class="print:hidden flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../docs/shields-up/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-base-text-muted">Previous</span>
-                                                <span class="block mt-1">README</span>
+                                                <span class="block mt-1">🛡️ Privacy Stack</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../docs/games/minecraft/">
-                                            <span>
-                                                <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
-                                                <span class="block mt-1">⛏️ Minecraft</span>
-                                            </span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
-                                        </a>
                                     </div>
                                 </nav>
                             </footer>
@@ -312,6 +584,6 @@ For game reviews, see <a href="gameindex/">Game Index</a></p>
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "📓 Config Journal – Entry Index", level: 1, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "KasmCE Setup", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
