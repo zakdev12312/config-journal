@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://docs.example.com/sitemap.xml.gz
+Sitemap: https://github.io/zakdev12312/config-journal/sitemap.xml.gz
