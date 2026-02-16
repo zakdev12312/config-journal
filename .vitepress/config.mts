@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "config-journal",
   description: "A plain-text archive of my personal digital setup",
-  srcDir: './docs',
+  srcDir: 'docs',
   base: '/config-journal/',
   ignoreDeadLinks: true,
   themeConfig: {
