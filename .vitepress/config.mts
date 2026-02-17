@@ -7,6 +7,8 @@ export default defineConfig({
   srcDir: 'docs',
   base: '/config-journal/',
   ignoreDeadLinks: true,
+  lastUpdated: true,
+  search: { provider: 'local' },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -79,6 +81,16 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zakdev12312/' }
-    ]
+    ],
+
+    editLink: {
+      pattern: 'https://github.com/zakdev12312/config-journal/edit/main/docs/:path',
+      text: 'Edit this page'
+    },
+
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright 2026 zakdev12312'
+    }
   }
 })

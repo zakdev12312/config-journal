@@ -6,7 +6,7 @@ A curated collection of fonts I’ve explored for my digital workspace, Docsify 
 
 ## **Roboto** – Clean & Neutral
 
-The quick brown fox jumps over the lazy dog.
+<span style="font-family: Roboto, sans-serif;">The quick brown fox jumps over the lazy dog.</span>
 
 Used as the sidebar title font. Minimal, balanced, and well-supported across browsers.
 
@@ -14,7 +14,7 @@ Used as the sidebar title font. Minimal, balanced, and well-supported across bro
 
 ## **Fira Code** – Monospace with Ligatures
 
-function example() => return true;
+<span style="font-family: 'Fira Code', monospace;">function example() => return true;</span>
 
 Perfect for developer vibes, great in terminals and Docsify code blocks.
 
@@ -22,7 +22,7 @@ Perfect for developer vibes, great in terminals and Docsify code blocks.
 
 ## **JetBrains Mono** – Aesthetic Coding Font
 
-let zen = () => config.journal();
+<span style="font-family: 'JetBrains Mono', monospace;">let zen = () => config.journal();</span>
 
 Sharper and softer than Fira, with great readability and slight flair.
 
@@ -38,7 +38,7 @@ Well-paired with minimal designs, feels calm and professional.
 
 ## **IBM Plex Sans** – Technical & Stylish
 
-System defaults reimagined with thoughtful polish.
+<span style="font-family: 'IBM Plex Sans', sans-serif;">System defaults reimagined with thoughtful polish.</span>
 
 Works well across headers, nav, and body copy. Underrated.
 

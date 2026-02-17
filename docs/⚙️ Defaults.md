@@ -16,7 +16,7 @@ A snapshot of my preferred tools, apps, and settings. Helps me stay consistent a
 
 - **Browser:** Opera (with uBlock Origin, LibRedirect)![Opera](https://img.shields.io/badge/Opera-red)
 - **DNS:** NextDNS (DoH), fallback: Cloudflare `1.1.1.1`![NextDNS](https://img.shields.io/badge/NextDNS-blue)
-- **VPN:** Surfshark (use code BOSS by MrWhoseTheBoss great deal) \[![(https://img.shields.io/badge/Surfshark-VPN-blue)](https://surfshark.com/boss)
+- **VPN:** Surfshark (use code BOSS by MrWhoseTheBoss great deal) [![Surfshark](https://img.shields.io/badge/Surfshark-VPN-blue)](https://surfshark.com/boss)
 
 ---
 
@@ -24,7 +24,7 @@ A snapshot of my preferred tools, apps, and settings. Helps me stay consistent a
 
 - **Note-taking:** Obsidian
 - **Clipboard:** Win+V (enable in Windows settings)
-- **Launcher:** Fluent Search (minimal profile)![Fluent Search](https://img.shields.io/badge/Fluent-Search-lightblue)
+- **Launcher:** [Raycast](https://www.raycast.com) ![Raycast](https://img.shields.io/badge/Raycast-black)
 - **Notion**![Notion](https://img.shields.io/badge/Notion-grey)
 
 ---
