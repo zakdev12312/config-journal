@@ -95,7 +95,8 @@ export default defineConfig({
         text: 'Movies',
         collapsed: false,
         items: [
-          { text: 'Interstellar', link: '/movies/Interstellar' }
+          { text: 'Interstellar', link: '/movies/Interstellar' },
+          { text: 'IF', link: '/movies/IF' }
         ]
       }
     ],
