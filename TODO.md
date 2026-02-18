@@ -5,7 +5,7 @@
 - Use a capital letter for 'stray'
 
 ## 🟡 Medium Priority: Styling & Layout
-- [ ] **Typography Reference:** Update the Inter section to actually display Inter font families (using inline CSS `style="font-family: ..."` where possible).
+- [ ] **Typography Reference:** Update the Inter section to actually display the Inter font like the others (using inline CSS `style="font-family: ..."` where possible).
 
 
 ## 🟢 Low Priority: Polish
