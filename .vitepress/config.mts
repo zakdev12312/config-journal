@@ -67,14 +67,14 @@ export default defineConfig({
           { text: 'Forza Horizon 5', link: '/games/🏎️ Forza Horizon 5_ Where Physics Go to Vacation' },
           { text: 'Gran Turismo 7', link: '/games/🏁 Gran Turismo 7' },
           { text: 'Marvel\'s Spider-Man: Miles Morales', link: '/games/🎧 Marvel’s Spider-Man_ Miles Morales' },
-          { text: 'TDUSC', link: '/games/tdusc' },
-          { text: 'Stray', link: '/games/stray' },
+          { text: 'Test Drive Unlimited: Solar Crown', link: '/games/tdusc' },
+          { text: 'Stray', link: '/games/Stray' },
           { text: 'Squirrel with a Gun', link: '/games/squirrel-with-a-gun' },
           { text: 'Portal 2', link: '/games/portal2' },
           { text: 'Portal', link: '/games/portal' },
           { text: 'Minecraft', link: '/games/minecraft' },
-          { text: 'Horizon 4', link: '/games/horizon4' },
-          { text: 'Ghost', link: '/games/ghost' }
+          { text: 'Forza Horizon 4', link: '/games/horizon4' },
+          { text: 'Ghost of Tsushima', link: '/games/ghost' }
         ]
       }
     ],

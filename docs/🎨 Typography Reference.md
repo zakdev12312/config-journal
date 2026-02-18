@@ -30,7 +30,7 @@ Sharper and softer than Fira, with great readability and slight flair.
 
 ## **Inter** – UI-Friendly Sans
 
-Simplicity isn’t a lack of content—it’s the clarity of intention.
+<span style="font-family: Inter, sans-serif;">Simplicity isn't a lack of content—it's the clarity of intention.</span>
 
 Well-paired with minimal designs, feels calm and professional.
 

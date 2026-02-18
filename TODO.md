@@ -1,11 +1,10 @@
 # 🛠️ Config Journal - Fix List
 
-## 🔴 High Priority: Content & Links
-- Read gameindex.md and look at the link names. upadte the sidebar to use the same names.
-- Use a capital letter for 'stray'
+## 🔴 High Priority: 
 
-## 🟡 Medium Priority: Styling & Layout
-- [ ] **Typography Reference:** Update the Inter section to actually display the Inter font like the others (using inline CSS `style="font-family: ..."` where possible).
+
+## 🟡 Medium Priority: 
+
 
 
 ## 🟢 Low Priority: Polish

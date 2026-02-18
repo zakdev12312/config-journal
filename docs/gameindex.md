@@ -17,6 +17,6 @@
 - [Portal 2](games/portal2.md)
 - [Road 96](games/🛣️%20Road%2096.md)
 - [Squirrel with a gun](games/squirrel-with-a-gun.md)
-- [stray](games/stray.md)
+- [Stray](games/Stray.md)
 - [Test Drive Unlimited: Solar Crown](games/tdusc.md)
 - [Titanfall 2](games/🤖%20Titanfall%202.md)
