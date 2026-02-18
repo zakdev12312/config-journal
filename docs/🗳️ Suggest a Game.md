@@ -1,6 +1,6 @@
-# 🗳️ Suggest a Game
+# 🗳️ Suggest a something
 
-Got something I should play or review?
+Got something I should play or watch?
 
 👉 [Submit a game via this form](https://forms.gle/9pLcRvrbBTJvwZ3a9)
 
