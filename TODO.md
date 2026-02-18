@@ -4,7 +4,7 @@
 
 
 ## 🟡 Medium Priority: 
-
+- Add a 'Movies' section to review movies
 
 
 ## 🟢 Low Priority: Polish
