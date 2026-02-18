@@ -19,7 +19,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Game Reviews', link: '/games' }
+      { text: 'Game Reviews', link: '/games' },
+      { text: 'Movie Reviews', link: '/movies' }
     ],
 
     sidebar: [
@@ -81,6 +82,20 @@ export default defineConfig({
           { text: 'Minecraft', link: '/games/minecraft' },
           { text: 'Forza Horizon 4', link: '/games/horizon4' },
           { text: 'Ghost of Tsushima', link: '/games/ghost' }
+        ]
+      },
+      {
+        text: 'Movie Reviews',
+        items: [
+          { text: 'Movie Reviews', link: '/movies' },
+          { text: 'Movie Index', link: '/movieindex' }
+        ]
+      },
+      {
+        text: 'Movies',
+        collapsed: false,
+        items: [
+          { text: 'Interstellar', link: '/movies/Interstellar' }
         ]
       }
     ],
