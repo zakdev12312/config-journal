@@ -4,6 +4,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "config-journal",
   description: "A plain-text archive of my personal digital setup",
+  head: [
+    ['meta', { name: 'google-site-verification', content: 'aiEBks0wGe_HDepEPRW1wXGvL0cxce0qWfapTiV4Iqo' }]
+  ],
   srcDir: 'docs',
   base: '/config-journal/',
   ignoreDeadLinks: true,
