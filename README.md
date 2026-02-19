@@ -31,6 +31,8 @@ Minimal stack, maximum clarity.
 
 ---
 
+[Content & Compliance Notice](DISCLAIMER.md)
+
 This repository is licensed under the CC-BY-4.0 License. Refer to [LICENSE](LICENSE.md) to learn more.
 
 Please feel free to suggest an app in [Issues](https://github.com/zakdev12312/config-jornal/issues)
