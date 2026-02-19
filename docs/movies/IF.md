@@ -33,7 +33,7 @@ If you're wondering, yes, this is completely random, and no, it's not going to c
 ---
 
 ### 🏁 Final Verdict
-Not a masterpiece, but a good watch. I think you, yes *you* would enjoy it. It's streaming on Netflix, or if that's not your thing, it's rent or buy on Prime Video.
+Not a masterpiece, but a good watch. I think you, yes *you* would enjoy it. It's streaming on Netflix, or if that's not your thing, it's rent or buy on Prime Video. Sailing the high seas is also an option. Just saying. 
 
 ---
 
