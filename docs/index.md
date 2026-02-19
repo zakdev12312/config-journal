@@ -12,6 +12,9 @@ hero:
     - text: Game Reviews
       link: /games
       theme: alt
+    - text: Movie Reviews
+      link: /movies
+      theme: alt
 
 features:
   - title: Minimalist Toolchains

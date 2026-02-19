@@ -8,6 +8,6 @@ Check out the [Movie Index](movieindex.md) for a curated list organized by genre
 
 Or browse individual movie pages in the sidebar.
 
-## Suggest a Movie
+## Suggest something
 
-Have a movie recommendation? [Let me know →](🗳️%20Suggest%20a%20Game.md)
+Have a movie recommendation? [Let me know →](🗳️%20Suggest%20something.md)

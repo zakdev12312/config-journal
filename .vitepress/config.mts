@@ -57,7 +57,7 @@ export default defineConfig({
         items: [
           { text: 'Game Reviews', link: '/games' },
           { text: 'Game Index', link: '/gameindex' },
-          { text: 'Suggest a Game', link: '/🗳️ Suggest a Game' }
+          { text: 'Suggest something', link: '/🗳️ Suggest something' }
         ]
       },
       {
@@ -88,13 +88,15 @@ export default defineConfig({
         text: 'Movie Reviews',
         items: [
           { text: 'Movie Reviews', link: '/movies' },
-          { text: 'Movie Index', link: '/movieindex' }
+          { text: 'Movie Index', link: '/movieindex' },
+          { text: 'Suggest something', link: '/🗳️ Suggest something' }
         ]
       },
       {
         text: 'Movies',
         collapsed: false,
         items: [
+          { text: 'The Adam Project', link: '/movies/The-Adam-Project' },
           { text: 'Interstellar', link: '/movies/Interstellar' },
           { text: 'IF', link: '/movies/IF' }
         ]

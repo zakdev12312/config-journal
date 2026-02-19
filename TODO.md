@@ -6,4 +6,4 @@
 ## 🟡 Medium Priority: 
 
 
-## 🟢 Low Priority: Polish
+## 🟢 Low Priority: 

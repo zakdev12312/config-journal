@@ -35,7 +35,7 @@ For game reviews, see [gameindex](gameindex.md)
 
 ## 🧪 Experiments & Reflections
 
-- [🗳️ Suggest a Game](🗳️%20Suggest%20a%20Game.md)  
+- [🗳️ Suggest something](🗳️%20Suggest%20something.md)  
     _A log of ideas, feedback, and things to explore._
 
 ---

@@ -9,9 +9,9 @@ Looking for every reviewed title in one place?
 
 ---
 
-## 🗳️ Suggest a Game
+## 🗳️ Suggest something
 
-## Have a title I should check out? Drop it [🗳️ Suggest a Game](%F0%9F%97%B3%EF%B8%8F%20Suggest%20a%20Game.md).
+## Have a title I should check out? Drop it [🗳️ Suggest something](%F0%9F%97%B3%EF%B8%8F%20Suggest%20a%20something.md).
 
 <details>
 <summary>🌟 Where It All Began</summary>
@@ -162,6 +162,6 @@ Games that thrive on mood, immersion, or strange beauty.
 
 ---
 
-## 🗳️ Suggest a Game
+## 🗳️ Suggest something
 
-Have a title I should check out? Drop it [🗳️ Suggest a Game](%F0%9F%97%B3%EF%B8%8F%20Suggest%20a%20Game.md).
+Have a title I should check out? Drop it [🗳️ Suggest something](%F0%9F%97%B3%EF%B8%8F%20Suggest%20a%20something.md).

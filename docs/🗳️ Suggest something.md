@@ -1,4 +1,4 @@
-# 🗳️ Suggest a something
+# 🗳️ Suggest something
 
 Got something I should play or watch?
 
