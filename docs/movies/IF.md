@@ -23,7 +23,7 @@ As a 'tech-person' I thought the CGI was pretty good; it felt as IF (haha, get i
 ---
 
 ### 🎧 The Atmosphere & Score
-I'm mixed on the score here. On one end, I thought it was a sentimental piece, and I liked the overall atmosphere. On the other hand, in some scenes, I just didn't like it. That's just my opinion, however and I'm up to speak in the [Discord](https://discord.gg/HnhnMR9kBk)
+I thought that this music was great. It had the perfect amount of mystery with nice tune. Hanz Zimmer never disappoints.
 
 ---
 
