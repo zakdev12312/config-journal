@@ -7,7 +7,9 @@ Welcome to my movie reviews vault. Here you'll find my thoughts on various movie
 Check out the [Movie Index](movieindex.md) for a curated list organized by genre.
 
 Or browse individual movie pages in the sidebar.
-[Disclaimer](~/DISCLAIMER.md)
+
+
+[Content & Compliance Notice](../DISCLAIMER.md)
 
 ## Suggest something
 
