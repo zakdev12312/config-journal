@@ -44,7 +44,7 @@ I think this is a 10/10 *masterpiece*. That's open for debate over on the [Disco
 ---
 
 **Top 3 Scenes:**
-1. Docking on the Endurance while spinning at 66rpm. "It's not possible, it's necessary"
+1. Docking on the Endurance while spinning at 68rpm. "It's not possible, it's necessary"
 2. Miller's planet. "Those aren't mountains.. they're waves"
 3. Cooper leaving home whilst the T-minus countdown is well... counting down.
 
