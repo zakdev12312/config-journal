@@ -41,6 +41,13 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Disclaimers',
+        items: [
+          { text: 'Content & Compliance', link: '/DISCLAIMER' },
+          { text: 'Windows Guide', link: '/windowsdisclaimer' }
+        ]
+      },
+      {
         text: 'Guides',
         items: [
           { text: 'Ideal Windows Install Guide', link: '/🪟 Ideal Windows Install Guide' },

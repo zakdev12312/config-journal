@@ -9,7 +9,7 @@ Check out the [Movie Index](movieindex.md) for a curated list organized by genre
 Or browse individual movie pages in the sidebar.
 
 
-[Content & Compliance Notice](../DISCLAIMER.md)
+[Content & Compliance Notice](/DISCLAIMER)
 
 ## Suggest something
 

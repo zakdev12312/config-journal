@@ -3,7 +3,7 @@
 > A frictionless routine for deploying Windows with clarity, control, and cockpit fluency.
 
 ## Disclaimer
-Please read [this](../windowsdisclaimer.md) before continuing.
+Please read [this](/windowsdisclaimer) before continuing.
 
 ---
 
