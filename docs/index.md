@@ -7,7 +7,7 @@ hero:
   tagline: Focused on simplicity, privacy, and efficiency. No configs to clone, no scripts to run—just clean markdown notes.
   actions:
     - text: Enter the Vault
-      link: /📓 Config Journal – Entry Index
+      link: /entry-index
       theme: brand
     - text: Game Reviews
       link: /games
@@ -42,7 +42,7 @@ Join the community, drop tool recs, or scream into the config void:
 ---
 
 🗃️ Dive deeper into the philosophy behind this markdown mayhem:  
-[About the Vault →](📦%20About%20the%20Vault.md)
+[About the Vault →](about-the-vault.md)
 
 ---
 

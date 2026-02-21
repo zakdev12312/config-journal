@@ -28,16 +28,16 @@ export default defineConfig({
         text: 'Home',
         items: [
           { text: 'Index', link: '/' },
-          { text: 'Entry Index', link: '/📓 Config Journal – Entry Index' }
+          { text: 'Entry Index', link: '/entry-index' }
         ]
       },
       {
         text: 'About',
         items: [
-          { text: 'About Me', link: '/👤 About Me' },
-          { text: 'About the Vault', link: '/📦 About the Vault' },
-          { text: 'Defaults', link: '/⚙️ Defaults' },
-          { text: 'Typography Reference', link: '/🎨 Typography Reference' }
+          { text: 'About Me', link: '/about-me' },
+          { text: 'About the Vault', link: '/about-the-vault' },
+          { text: 'Defaults', link: '/defaults' },
+          { text: 'Typography Reference', link: '/typography-reference' }
         ]
       },
       {
@@ -50,7 +50,7 @@ export default defineConfig({
       {
         text: 'Guides',
         items: [
-          { text: 'Ideal Windows Install Guide', link: '/🪟 Ideal Windows Install Guide' },
+          { text: 'Ideal Windows Install Guide', link: '/windows-install-guide' },
           { text: 'Web', link: '/web' },
           { text: 'Shields Up', link: '/shields-up' },
           { text: 'Transfer', link: '/transfer' },
@@ -64,25 +64,25 @@ export default defineConfig({
         items: [
           { text: 'Game Reviews', link: '/games' },
           { text: 'Game Index', link: '/gameindex' },
-          { text: 'Suggest something', link: '/🗳️ Suggest something' }
+          { text: 'Suggest something', link: '/suggest-something' }
         ]
       },
       {
         text: 'Games',
         collapsed: false,
         items: [
-          { text: 'Titanfall 2', link: '/games/🤖 Titanfall 2' },
-          { text: 'Firewatch', link: '/games/🟧 Firewatch' },
-          { text: 'Road 96', link: '/games/🛣️ Road 96' },
-          { text: 'art of rally', link: '/games/🚗 art of rally' },
-          { text: 'Marvel\'s Spider-Man 2', link: '/games/🕸️ Marvel’s Spider-Man 2' },
-          { text: 'Marvel\'s Spider-Man', link: '/games/🕷️ Marvel’s Spider-Man' },
-          { text: 'Call of Duty: Black Ops Cold War', link: '/games/🕶️ Call of Duty_ Black Ops Cold War' },
-          { text: 'Forza Horizon 5', link: '/games/🏎️ Forza Horizon 5_ Where Physics Go to Vacation' },
-          { text: 'Gran Turismo 7', link: '/games/🏁 Gran Turismo 7' },
-          { text: 'Marvel\'s Spider-Man: Miles Morales', link: '/games/🎧 Marvel’s Spider-Man_ Miles Morales' },
+          { text: 'Titanfall 2', link: '/games/titanfall-2' },
+          { text: 'Firewatch', link: '/games/firewatch' },
+          { text: 'Road 96', link: '/games/road-96' },
+          { text: 'art of rally', link: '/games/art-of-rally' },
+          { text: 'Marvel\'s Spider-Man 2', link: '/games/spider-man-2' },
+          { text: 'Marvel\'s Spider-Man', link: '/games/spider-man' },
+          { text: 'Call of Duty: Black Ops Cold War', link: '/games/cod-black-ops-cold-war' },
+          { text: 'Forza Horizon 5', link: '/games/forza-horizon-5' },
+          { text: 'Gran Turismo 7', link: '/games/gran-turismo-7' },
+          { text: 'Marvel\'s Spider-Man: Miles Morales', link: '/games/spider-man-miles-morales' },
           { text: 'Test Drive Unlimited: Solar Crown', link: '/games/tdusc' },
-          { text: 'Stray', link: '/games/Stray' },
+          { text: 'Stray', link: '/games/stray' },
           { text: 'Squirrel with a Gun', link: '/games/squirrel-with-a-gun' },
           { text: 'Portal 2', link: '/games/portal2' },
           { text: 'Portal', link: '/games/portal' },
@@ -96,7 +96,7 @@ export default defineConfig({
         items: [
           { text: 'Movie Reviews', link: '/movies' },
           { text: 'Movie Index', link: '/movieindex' },
-          { text: 'Suggest something', link: '/🗳️ Suggest something' }
+          { text: 'Suggest something', link: '/suggest-something' }
         ]
       },
       {

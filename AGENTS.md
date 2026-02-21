@@ -31,8 +31,8 @@ npm run docs:preview
 ### Markdown Conventions
 
 1. **File Naming**
-   - Use lowercase with hyphens for general files: `game-reviews.md`
-   - Use emoji prefixes for special pages: `🤖 Titanfall 2.md`, `🪟 Ideal Windows Install Guide.md`
+   - Use lowercase with hyphens for all files: `game-reviews.md`, `titanfall-2.md`, `windows-install-guide.md`
+   - No emojis in filenames
    - Keep filenames descriptive but reasonably short
 
 2. **Heading Structure**

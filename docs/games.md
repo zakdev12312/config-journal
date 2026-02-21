@@ -10,4 +10,4 @@ Or browse individual game pages in the sidebar.
 
 ## Suggest something
 
-Have a game recommendation? [Let me know →](🗳️%20Suggest%20something.md)
+Have a game recommendation? [Let me know →](suggest-something.md)

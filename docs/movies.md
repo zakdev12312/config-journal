@@ -13,4 +13,4 @@ Or browse individual movie pages in the sidebar.
 
 ## Suggest something
 
-Have a movie recommendation? [Let me know →](🗳️%20Suggest%20something.md)
+Have a movie recommendation? [Let me know →](suggest-something.md)
