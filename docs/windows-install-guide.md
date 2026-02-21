@@ -1,55 +1,26 @@
-# 🪟 Ideal Windows Install Guide
+# Windows Install Guide
 
-> A frictionless routine for deploying Windows with clarity, control, and cockpit fluency.
 
 ## Disclaimer
 Please read [this](/windowsdisclaimer) before continuing.
 
 ---
 
-## ⚙️ Pre-Install Checklist
+## Prerequisites
+- Back-up all your important data somewhere
+- Secure boot disabled
+- A USB flash drive that's at least **8gb**
+- ***Maybe*** your PC's drivers on a folder of the flash drive
 
-- 🔒 Ensure Secure Boot is disabled (BIOS)
-- 🧭 Set boot order and confirm USB/ISO readiness
-- 📐 Decide on disk layout (GPT, partitioning logic)
+## Installation
+Go through the install as you would. Deleting partitions etc. 
 
----
+## Post install
+Head to [Talon's website](https://www.debloat.win)
+Download the full version of Talon 
+ Extract and run it.
+Windows may block it, however it is safe. (More options > Run anyway)
+Select your browser of choice, and let Talon handle debloating for you.
 
-## 📥 Install Flow
-
-- 🔗 Download official ISO from Microsoft  
-    (Optional: check with UUP dump for pre-mod ISOs)
-- 🛠️ Use Rufus (or Ventoy) to flash USB
-- 💡Disable internet to use a local account for better privacy
-
----
-
-## 🔧 Post-Install Essentials
-
-- 🌐 Install Brave and sync your keychain (or fresh start)
-- ✨ Run Talon to debloat and optimize performance [Talon](https://debloat.win/)
-
----
-
-## 🧼 Debloat Routine
-
-- Launch **Talon** and disable:
-    - Xbox Game Bar
-    - OneDrive sync
-    - Cortana & Widgets
-    - Violently told Edge to leave. It resisted. I insisted.
-    - 🗂️ Manage services:
-    - Turn off ALL telemetry
-    - Disable feedback/diagnostics flow
-
----
-
-## 🎨 Visual Setup
-
-- 🖼️ Minimalist wallpaper (matching palette on Wallpaper Engine)
-- 🌓 Theme: Dark always
-- 💡 Font and scaling tuned for clarity
-
----
-
-> “This install feels frictionless. Light, deliberate, mine.”
+## Finished
+Hey, you successfully debloated your Windows installation! Well, that's it for this guide, so I'll see you nect time.
