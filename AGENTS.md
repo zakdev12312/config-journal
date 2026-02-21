@@ -10,9 +10,6 @@ This is a VitePress documentation site containing personal notes about digital s
 # Start dev server with hot reload
 npm run docs:dev
 
-# Build static site for production
-npm run docs:build
-
 # Preview production build locally
 npm run docs:preview
 ```
@@ -28,7 +25,7 @@ npm run docs:preview
 ### General Principles
 
 - Keep content clear, concise, and human-readable
-- Use American English spelling
+- Use British English spelling
 - Write in a friendly, opinionated tone (as the personal blog of zakdev12312)
 
 ### Markdown Conventions
