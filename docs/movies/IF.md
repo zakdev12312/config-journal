@@ -7,7 +7,7 @@
 ### 📋 The Vitals
 *   **Director:** John Krasinski
 *   **Genre:** Fantasy / Family / "Why am I crying at a purple marshmallow?"
-*   **My Rating:** 6.5
+*   **My Rating:** 8/10
 *   **Vibe Check:** 100% wholesome, 20% existential dread for adults.
 
 ---
