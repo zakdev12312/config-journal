@@ -11,12 +11,17 @@ export default defineConfig({
   base: '/config-journal/',
   ignoreDeadLinks: true,
   lastUpdated: true,
-  search: { provider: 'local' },
   sitemap: {
     hostname: 'https://zakdev12312.github.io/config-journal/'
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local',
+      options: {
+        detailedView: true
+      }
+    },
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Game Reviews', link: '/games' },
