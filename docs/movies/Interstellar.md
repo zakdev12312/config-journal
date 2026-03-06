@@ -13,7 +13,7 @@
 ---
 
 ### 🌌 The Premise
-A desperate last attempt to save humanity from extinction. Cooper is recruited to lead a tem through a wormhole to find a new habitable planet.
+A desperate last attempt to save humanity from extinction. Cooper is recruited to lead a team through a wormhole to find a new habitable planet.
 
 ---
 
