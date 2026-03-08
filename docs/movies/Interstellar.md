@@ -46,7 +46,7 @@ I think this is a 10/10 *masterpiece*. That's open for debate over on the [Disco
 **Top 3 Scenes:**
 1. Docking on the Endurance while spinning at 68rpm. "It's not possible, it's necessary"
 2. Miller's planet. "Those aren't mountains.. they're waves"
-3. Cooper leaving home whilst the T-minus countdown is well... counting down.
+3. Cooper leaving home whilst the T-minus countdown is well... counting down. (~40-41 minutes in)
 
 ### The End
 Hey, you made it to the very end. I hope you liked this review, and it was enough to convince you to add config-journal to your bookmarks. If not, hope you enjoyed the review anyway. See you next time. Love you!
