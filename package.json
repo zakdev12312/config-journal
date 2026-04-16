@@ -1,0 +1,24 @@
+{
+  "name": "config-journal",
+  "version": "2.0.0",
+  "description": "_Config Journal_ is a plain-text archive of my personal digital setup—focused on simplicity, privacy, and efficiency. No configs to clone, no scripts to run—just clean markdown notes documenting the apps I use, the tweaks I make, and how I stay focused in a bloated digital world. My interpretation of (almost) everything tech—quietly opinionated, always in progress.",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "review": "node new-review.mjs",
+    "note": "node new-note.mjs",
+    "game": "node new-game.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
